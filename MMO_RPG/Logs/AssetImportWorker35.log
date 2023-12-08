@@ -1,0 +1,880 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker35
+-projectPath
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+-logFile
+Logs/AssetImportWorker35.log
+-srvPort
+61834
+Successfully changed project path to: C:/Users/Crazy/GitHubRepo/MMO_RPG
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17820] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 2036878472 [EditorId] 2036878472 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17820] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 2036878472 [EditorId] 2036878472 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Crazy/GitHubRepo/MMO_RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003458 seconds.
+- Loaded All Assemblies, in  0.192 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.150 seconds
+Domain Reload Profiling: 341ms
+	BeginReloadAssembly (56ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (55ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (112ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.363 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 832ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4509 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4993.
+Memory consumption went from 283.3 MB to 282.0 MB.
+Total: 2.320000 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.074500 ms MarkObjects: 1.837900 ms  DeleteObjects: 0.211800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecated.cs: 8700a90d2d763e9c01f08a0cd128cca8 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlur.cs: 458c2b6f90eeea041921d89083a79e55 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookupEditor.cs: a2fb9e7138550e9aa0e0de2d21737d42 -> 
+  custom:scripting/monoscript/fileName/TiltShift.cs: 13ff1d7342528fc14a2e194c2bdc09fb -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientOcclusion.cs: 42eb6963a5f738a978938eb937f58d78 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: 08f2494575227b4cb3d61bcceb28feda -> 64cce655bf722c851048e2ebbf401a7b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrainEditor.cs: 0276e69b6de7374aa913d893485a004e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SunShafts.cs: abee30526487200fa16387df850e7daf -> 
+  custom:scripting/monoscript/fileName/MotionBlur.cs: 92b2659b88ad4aa26fb8c384c6435693 -> 823914e335803785a19e5990c6ab2911
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Grayscale.cs: 87671e23fd2948061f63e16eb704f3a3 -> 
+  custom:scripting/monoscript/fileName/BlurOptimized.cs: a99dff34286593c12b0fab92e7c0da68 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlurEditor.cs: 7c502cd6630e6f5609abadb3991d9ab2 -> 
+  custom:scripting/monoscript/fileName/Quads.cs: 2f24050aded65dda899533ba7849a43c -> 
+  custom:scripting/monoscript/fileName/Blur.cs: 16b33e375f19895ec61239c77165934f -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecatedEditor.cs: 9c0d6ba6950f727fa7ed1bfef973ec32 -> 
+  custom:scripting/monoscript/fileName/ImageEffects.cs: fc49fae855f2f50655b411c31423a73d -> 
+  custom:scripting/monoscript/fileName/PostEffectsBase.cs: 6aabc5a6e1a831a9196622d2796540be -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookup.cs: cdade6b297f1c116727fa6035591313f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Triangles.cs: 64f7a3839fbac059155d5ec1d8597e9c -> 
+  custom:scripting/monoscript/fileName/SunShaftsEditor.cs: 14ff19bb08f48e5592630a8ef09a85a4 -> 
+  custom:scripting/monoscript/fileName/ContrastStretch.cs: 606dc0496a32ea6e71f97dc962793c28 -> 
+  custom:scripting/monoscript/fileName/EdgeDetectionEditor.cs: 4cca3302e9c064dba4f706ba0e5d7102 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ContrastEnhance.cs: 25207a33818c5454fd86fad73189b2cd -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PostEffectsHelper.cs: 5b0aade5ee85030099a328bfa56e17eb -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CreaseShading.cs: 5b17bf81bff982a9605309492401c574 -> 
+  custom:scripting/monoscript/fileName/AntialiasingEditor.cs: cd1db322c4d4bac3e0fdd7740cc772c6 -> 
+  custom:scripting/monoscript/fileName/Antialiasing.cs: bec6c7367bf7f3b527b25907b25d4102 -> 
+  custom:scripting/monoscript/fileName/SepiaTone.cs: 67c7b044a145b042dba91a1a8d54f9f4 -> 
+  custom:scripting/monoscript/fileName/ImageEffectBase.cs: 6d460e3d17a4175e44411c6923e62aed -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrain.cs: f4f7112c95c7474ffaf494b422803169 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlaresEditor.cs: 1f9e796d927ffcd86ccbfad6ec7007d5 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientObscurance.cs: 958d0bf4e6842d24e3147fb5da01010e -> 
+  custom:scripting/monoscript/fileName/CreaseShadingEditor.cs: 10fe90e5375fc621d9f19b702723dc86 -> 
+  custom:scripting/monoscript/fileName/Fisheye.cs: ad168996bfc8fa7824e22ed9b5548fe9 -> 
+  custom:scripting/monoscript/fileName/Twirl.cs: 13260c2451d9e72af8c2f232859ba959 -> 
+  custom:scripting/monoscript/fileName/ScreenOverlay.cs: 8b6e368a4e3d0df848783015d0ee2b1e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: 30ec2f75a877490d61737e7133343649 -> 6f6d579a64201b97313a62a1e91b3575
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Vortex.cs: d2f7738ed789b7a977f000ffd0cf8890 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurvesEditor.cs: ba8c98b45b2e94f575e6b8aff77cc447 -> 
+  custom:scripting/monoscript/fileName/TonemappingEditor.cs: edac4117593cd8c316e847cfa4a2c184 -> 
+  custom:scripting/monoscript/fileName/DepthOfField.cs: 210e30d8b82aad5f2e723712ae5c23ab -> d62178d8b5619f59fcdd6d24617ef5fd
+  custom:scripting/monoscript/fileName/BloomEditor.cs: d91107ad996d0ffb3ca7e993408afdea -> c341bb26b40744c3a5c2a142ac3e1051
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberrationEditor.cs: de7480822b02f6e7bbb6e752b450d6c9 -> 
+  custom:scripting/monoscript/fileName/BloomOptimized.cs: deef391a4062215fa64b13290b34b1e5 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlares.cs: 8afb5ea14b913734370925506b923fb7 -> 
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberration.cs: 6f7816e6c6a96eb38e8b34a3171a3d7a -> 
+  custom:scripting/monoscript/fileName/GlobalFog.cs: cec4a166fe83b304dd694da080c37c22 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Tonemapping.cs: c9f290b3ad74cc49f26aca1f0af02743 -> 
+  custom:scripting/monoscript/fileName/EdgeDetection.cs: 7e270773de6bd808e57f1eb909c3207a -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurves.cs: 0fe9ce599982e40ac8aba010733d7bdc -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionRamp.cs: a7e8fab02fd9ee3f41f3660b4752114a -> 
+  custom:scripting/monoscript/fileName/NoiseAndScratches.cs: e0c1886d5a6b335ec4861c2068c91d03 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75902.341969 seconds.
+  path: Assets/Games/Trailblazer/Resources/Trailblazer/ClassSpecialization/KnightSpecialization.asset
+  artifactKey: Guid(4c2f90011c0461645860295c63481839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Resources/Trailblazer/ClassSpecialization/KnightSpecialization.asset using Guid(4c2f90011c0461645860295c63481839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97252c7df135d2b1344dfadd6179be6d') in 0.009762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.240 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 786ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4997.
+Memory consumption went from 263.4 MB to 262.1 MB.
+Total: 2.069300 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.670400 ms  DeleteObjects: 0.170100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecated.cs: 8700a90d2d763e9c01f08a0cd128cca8 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlur.cs: 458c2b6f90eeea041921d89083a79e55 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookupEditor.cs: a2fb9e7138550e9aa0e0de2d21737d42 -> 
+  custom:scripting/monoscript/fileName/TiltShift.cs: 13ff1d7342528fc14a2e194c2bdc09fb -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientOcclusion.cs: 42eb6963a5f738a978938eb937f58d78 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: 08f2494575227b4cb3d61bcceb28feda -> 64cce655bf722c851048e2ebbf401a7b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrainEditor.cs: 0276e69b6de7374aa913d893485a004e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SunShafts.cs: abee30526487200fa16387df850e7daf -> 
+  custom:scripting/monoscript/fileName/MotionBlur.cs: 92b2659b88ad4aa26fb8c384c6435693 -> 823914e335803785a19e5990c6ab2911
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Grayscale.cs: 87671e23fd2948061f63e16eb704f3a3 -> 
+  custom:scripting/monoscript/fileName/BlurOptimized.cs: a99dff34286593c12b0fab92e7c0da68 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlurEditor.cs: 7c502cd6630e6f5609abadb3991d9ab2 -> 
+  custom:scripting/monoscript/fileName/Quads.cs: 2f24050aded65dda899533ba7849a43c -> 
+  custom:scripting/monoscript/fileName/Blur.cs: 16b33e375f19895ec61239c77165934f -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecatedEditor.cs: 9c0d6ba6950f727fa7ed1bfef973ec32 -> 
+  custom:scripting/monoscript/fileName/ImageEffects.cs: fc49fae855f2f50655b411c31423a73d -> 
+  custom:scripting/monoscript/fileName/PostEffectsBase.cs: 6aabc5a6e1a831a9196622d2796540be -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookup.cs: cdade6b297f1c116727fa6035591313f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Triangles.cs: 64f7a3839fbac059155d5ec1d8597e9c -> 
+  custom:scripting/monoscript/fileName/SunShaftsEditor.cs: 14ff19bb08f48e5592630a8ef09a85a4 -> 
+  custom:scripting/monoscript/fileName/ContrastStretch.cs: 606dc0496a32ea6e71f97dc962793c28 -> 
+  custom:scripting/monoscript/fileName/EdgeDetectionEditor.cs: 4cca3302e9c064dba4f706ba0e5d7102 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ContrastEnhance.cs: 25207a33818c5454fd86fad73189b2cd -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PostEffectsHelper.cs: 5b0aade5ee85030099a328bfa56e17eb -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CreaseShading.cs: 5b17bf81bff982a9605309492401c574 -> 
+  custom:scripting/monoscript/fileName/AntialiasingEditor.cs: cd1db322c4d4bac3e0fdd7740cc772c6 -> 
+  custom:scripting/monoscript/fileName/Antialiasing.cs: bec6c7367bf7f3b527b25907b25d4102 -> 
+  custom:scripting/monoscript/fileName/SepiaTone.cs: 67c7b044a145b042dba91a1a8d54f9f4 -> 
+  custom:scripting/monoscript/fileName/ImageEffectBase.cs: 6d460e3d17a4175e44411c6923e62aed -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrain.cs: f4f7112c95c7474ffaf494b422803169 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlaresEditor.cs: 1f9e796d927ffcd86ccbfad6ec7007d5 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientObscurance.cs: 958d0bf4e6842d24e3147fb5da01010e -> 
+  custom:scripting/monoscript/fileName/CreaseShadingEditor.cs: 10fe90e5375fc621d9f19b702723dc86 -> 
+  custom:scripting/monoscript/fileName/Fisheye.cs: ad168996bfc8fa7824e22ed9b5548fe9 -> 
+  custom:scripting/monoscript/fileName/Twirl.cs: 13260c2451d9e72af8c2f232859ba959 -> 
+  custom:scripting/monoscript/fileName/ScreenOverlay.cs: 8b6e368a4e3d0df848783015d0ee2b1e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: 30ec2f75a877490d61737e7133343649 -> 6f6d579a64201b97313a62a1e91b3575
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Vortex.cs: d2f7738ed789b7a977f000ffd0cf8890 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurvesEditor.cs: ba8c98b45b2e94f575e6b8aff77cc447 -> 
+  custom:scripting/monoscript/fileName/TonemappingEditor.cs: edac4117593cd8c316e847cfa4a2c184 -> 
+  custom:scripting/monoscript/fileName/DepthOfField.cs: 210e30d8b82aad5f2e723712ae5c23ab -> d62178d8b5619f59fcdd6d24617ef5fd
+  custom:scripting/monoscript/fileName/BloomEditor.cs: d91107ad996d0ffb3ca7e993408afdea -> c341bb26b40744c3a5c2a142ac3e1051
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberrationEditor.cs: de7480822b02f6e7bbb6e752b450d6c9 -> 
+  custom:scripting/monoscript/fileName/BloomOptimized.cs: deef391a4062215fa64b13290b34b1e5 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlares.cs: 8afb5ea14b913734370925506b923fb7 -> 
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberration.cs: 6f7816e6c6a96eb38e8b34a3171a3d7a -> 
+  custom:scripting/monoscript/fileName/GlobalFog.cs: cec4a166fe83b304dd694da080c37c22 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Tonemapping.cs: c9f290b3ad74cc49f26aca1f0af02743 -> 
+  custom:scripting/monoscript/fileName/EdgeDetection.cs: 7e270773de6bd808e57f1eb909c3207a -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurves.cs: 0fe9ce599982e40ac8aba010733d7bdc -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionRamp.cs: a7e8fab02fd9ee3f41f3660b4752114a -> 
+  custom:scripting/monoscript/fileName/NoiseAndScratches.cs: e0c1886d5a6b335ec4861c2068c91d03 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 352.723268 seconds.
+  path: Assets/Games/Trailblazer/Resources/Trailblazer/CharacterRace/MecanimRace.asset
+  artifactKey: Guid(5ae02402197acf9498f86691ff8f2681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Resources/Trailblazer/CharacterRace/MecanimRace.asset using Guid(5ae02402197acf9498f86691ff8f2681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2d09320687e025c4c75b1eec8940aa') in 0.015675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.246 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.551 seconds
+Domain Reload Profiling: 796ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 5000.
+Memory consumption went from 265.4 MB to 264.1 MB.
+Total: 2.156700 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.742800 ms  DeleteObjects: 0.166900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecated.cs: 8700a90d2d763e9c01f08a0cd128cca8 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlur.cs: 458c2b6f90eeea041921d89083a79e55 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookupEditor.cs: a2fb9e7138550e9aa0e0de2d21737d42 -> 
+  custom:scripting/monoscript/fileName/TiltShift.cs: 13ff1d7342528fc14a2e194c2bdc09fb -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientOcclusion.cs: 42eb6963a5f738a978938eb937f58d78 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: 08f2494575227b4cb3d61bcceb28feda -> 64cce655bf722c851048e2ebbf401a7b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrainEditor.cs: 0276e69b6de7374aa913d893485a004e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SunShafts.cs: abee30526487200fa16387df850e7daf -> 
+  custom:scripting/monoscript/fileName/MotionBlur.cs: 92b2659b88ad4aa26fb8c384c6435693 -> 823914e335803785a19e5990c6ab2911
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Grayscale.cs: 87671e23fd2948061f63e16eb704f3a3 -> 
+  custom:scripting/monoscript/fileName/BlurOptimized.cs: a99dff34286593c12b0fab92e7c0da68 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlurEditor.cs: 7c502cd6630e6f5609abadb3991d9ab2 -> 
+  custom:scripting/monoscript/fileName/Quads.cs: 2f24050aded65dda899533ba7849a43c -> 
+  custom:scripting/monoscript/fileName/Blur.cs: 16b33e375f19895ec61239c77165934f -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecatedEditor.cs: 9c0d6ba6950f727fa7ed1bfef973ec32 -> 
+  custom:scripting/monoscript/fileName/ImageEffects.cs: fc49fae855f2f50655b411c31423a73d -> 
+  custom:scripting/monoscript/fileName/PostEffectsBase.cs: 6aabc5a6e1a831a9196622d2796540be -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookup.cs: cdade6b297f1c116727fa6035591313f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Triangles.cs: 64f7a3839fbac059155d5ec1d8597e9c -> 
+  custom:scripting/monoscript/fileName/SunShaftsEditor.cs: 14ff19bb08f48e5592630a8ef09a85a4 -> 
+  custom:scripting/monoscript/fileName/ContrastStretch.cs: 606dc0496a32ea6e71f97dc962793c28 -> 
+  custom:scripting/monoscript/fileName/EdgeDetectionEditor.cs: 4cca3302e9c064dba4f706ba0e5d7102 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ContrastEnhance.cs: 25207a33818c5454fd86fad73189b2cd -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PostEffectsHelper.cs: 5b0aade5ee85030099a328bfa56e17eb -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CreaseShading.cs: 5b17bf81bff982a9605309492401c574 -> 
+  custom:scripting/monoscript/fileName/AntialiasingEditor.cs: cd1db322c4d4bac3e0fdd7740cc772c6 -> 
+  custom:scripting/monoscript/fileName/Antialiasing.cs: bec6c7367bf7f3b527b25907b25d4102 -> 
+  custom:scripting/monoscript/fileName/SepiaTone.cs: 67c7b044a145b042dba91a1a8d54f9f4 -> 
+  custom:scripting/monoscript/fileName/ImageEffectBase.cs: 6d460e3d17a4175e44411c6923e62aed -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrain.cs: f4f7112c95c7474ffaf494b422803169 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlaresEditor.cs: 1f9e796d927ffcd86ccbfad6ec7007d5 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientObscurance.cs: 958d0bf4e6842d24e3147fb5da01010e -> 
+  custom:scripting/monoscript/fileName/CreaseShadingEditor.cs: 10fe90e5375fc621d9f19b702723dc86 -> 
+  custom:scripting/monoscript/fileName/Fisheye.cs: ad168996bfc8fa7824e22ed9b5548fe9 -> 
+  custom:scripting/monoscript/fileName/Twirl.cs: 13260c2451d9e72af8c2f232859ba959 -> 
+  custom:scripting/monoscript/fileName/ScreenOverlay.cs: 8b6e368a4e3d0df848783015d0ee2b1e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: 30ec2f75a877490d61737e7133343649 -> 6f6d579a64201b97313a62a1e91b3575
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Vortex.cs: d2f7738ed789b7a977f000ffd0cf8890 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurvesEditor.cs: ba8c98b45b2e94f575e6b8aff77cc447 -> 
+  custom:scripting/monoscript/fileName/TonemappingEditor.cs: edac4117593cd8c316e847cfa4a2c184 -> 
+  custom:scripting/monoscript/fileName/DepthOfField.cs: 210e30d8b82aad5f2e723712ae5c23ab -> d62178d8b5619f59fcdd6d24617ef5fd
+  custom:scripting/monoscript/fileName/BloomEditor.cs: d91107ad996d0ffb3ca7e993408afdea -> c341bb26b40744c3a5c2a142ac3e1051
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberrationEditor.cs: de7480822b02f6e7bbb6e752b450d6c9 -> 
+  custom:scripting/monoscript/fileName/BloomOptimized.cs: deef391a4062215fa64b13290b34b1e5 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlares.cs: 8afb5ea14b913734370925506b923fb7 -> 
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberration.cs: 6f7816e6c6a96eb38e8b34a3171a3d7a -> 
+  custom:scripting/monoscript/fileName/GlobalFog.cs: cec4a166fe83b304dd694da080c37c22 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Tonemapping.cs: c9f290b3ad74cc49f26aca1f0af02743 -> 
+  custom:scripting/monoscript/fileName/EdgeDetection.cs: 7e270773de6bd808e57f1eb909c3207a -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurves.cs: 0fe9ce599982e40ac8aba010733d7bdc -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionRamp.cs: a7e8fab02fd9ee3f41f3660b4752114a -> 
+  custom:scripting/monoscript/fileName/NoiseAndScratches.cs: e0c1886d5a6b335ec4861c2068c91d03 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 128.058042 seconds.
+  path: Assets/Games/Trailblazer/Scenes/BanditCamp
+  artifactKey: Guid(4088cef4aac26524894f1412b69d23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Scenes/BanditCamp using Guid(4088cef4aac26524894f1412b69d23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b648586aac183d48433512a2e480004') in 0.007025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.240 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.579 seconds
+Domain Reload Profiling: 818ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (579ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 5003.
+Memory consumption went from 267.3 MB to 266.0 MB.
+Total: 2.054200 ms (FindLiveObjects: 0.169800 ms CreateObjectMapping: 0.062500 ms MarkObjects: 1.669600 ms  DeleteObjects: 0.151500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecated.cs: 8700a90d2d763e9c01f08a0cd128cca8 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlur.cs: 458c2b6f90eeea041921d89083a79e55 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookupEditor.cs: a2fb9e7138550e9aa0e0de2d21737d42 -> 
+  custom:scripting/monoscript/fileName/TiltShift.cs: 13ff1d7342528fc14a2e194c2bdc09fb -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientOcclusion.cs: 42eb6963a5f738a978938eb937f58d78 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: 08f2494575227b4cb3d61bcceb28feda -> 64cce655bf722c851048e2ebbf401a7b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrainEditor.cs: 0276e69b6de7374aa913d893485a004e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SunShafts.cs: abee30526487200fa16387df850e7daf -> 
+  custom:scripting/monoscript/fileName/MotionBlur.cs: 92b2659b88ad4aa26fb8c384c6435693 -> 823914e335803785a19e5990c6ab2911
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Grayscale.cs: 87671e23fd2948061f63e16eb704f3a3 -> 
+  custom:scripting/monoscript/fileName/BlurOptimized.cs: a99dff34286593c12b0fab92e7c0da68 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlurEditor.cs: 7c502cd6630e6f5609abadb3991d9ab2 -> 
+  custom:scripting/monoscript/fileName/Quads.cs: 2f24050aded65dda899533ba7849a43c -> 
+  custom:scripting/monoscript/fileName/Blur.cs: 16b33e375f19895ec61239c77165934f -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecatedEditor.cs: 9c0d6ba6950f727fa7ed1bfef973ec32 -> 
+  custom:scripting/monoscript/fileName/ImageEffects.cs: fc49fae855f2f50655b411c31423a73d -> 
+  custom:scripting/monoscript/fileName/PostEffectsBase.cs: 6aabc5a6e1a831a9196622d2796540be -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookup.cs: cdade6b297f1c116727fa6035591313f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Triangles.cs: 64f7a3839fbac059155d5ec1d8597e9c -> 
+  custom:scripting/monoscript/fileName/SunShaftsEditor.cs: 14ff19bb08f48e5592630a8ef09a85a4 -> 
+  custom:scripting/monoscript/fileName/ContrastStretch.cs: 606dc0496a32ea6e71f97dc962793c28 -> 
+  custom:scripting/monoscript/fileName/EdgeDetectionEditor.cs: 4cca3302e9c064dba4f706ba0e5d7102 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ContrastEnhance.cs: 25207a33818c5454fd86fad73189b2cd -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PostEffectsHelper.cs: 5b0aade5ee85030099a328bfa56e17eb -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CreaseShading.cs: 5b17bf81bff982a9605309492401c574 -> 
+  custom:scripting/monoscript/fileName/AntialiasingEditor.cs: cd1db322c4d4bac3e0fdd7740cc772c6 -> 
+  custom:scripting/monoscript/fileName/Antialiasing.cs: bec6c7367bf7f3b527b25907b25d4102 -> 
+  custom:scripting/monoscript/fileName/SepiaTone.cs: 67c7b044a145b042dba91a1a8d54f9f4 -> 
+  custom:scripting/monoscript/fileName/ImageEffectBase.cs: 6d460e3d17a4175e44411c6923e62aed -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrain.cs: f4f7112c95c7474ffaf494b422803169 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlaresEditor.cs: 1f9e796d927ffcd86ccbfad6ec7007d5 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientObscurance.cs: 958d0bf4e6842d24e3147fb5da01010e -> 
+  custom:scripting/monoscript/fileName/CreaseShadingEditor.cs: 10fe90e5375fc621d9f19b702723dc86 -> 
+  custom:scripting/monoscript/fileName/Fisheye.cs: ad168996bfc8fa7824e22ed9b5548fe9 -> 
+  custom:scripting/monoscript/fileName/Twirl.cs: 13260c2451d9e72af8c2f232859ba959 -> 
+  custom:scripting/monoscript/fileName/ScreenOverlay.cs: 8b6e368a4e3d0df848783015d0ee2b1e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: 30ec2f75a877490d61737e7133343649 -> 6f6d579a64201b97313a62a1e91b3575
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Vortex.cs: d2f7738ed789b7a977f000ffd0cf8890 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurvesEditor.cs: ba8c98b45b2e94f575e6b8aff77cc447 -> 
+  custom:scripting/monoscript/fileName/TonemappingEditor.cs: edac4117593cd8c316e847cfa4a2c184 -> 
+  custom:scripting/monoscript/fileName/DepthOfField.cs: 210e30d8b82aad5f2e723712ae5c23ab -> d62178d8b5619f59fcdd6d24617ef5fd
+  custom:scripting/monoscript/fileName/BloomEditor.cs: d91107ad996d0ffb3ca7e993408afdea -> c341bb26b40744c3a5c2a142ac3e1051
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberrationEditor.cs: de7480822b02f6e7bbb6e752b450d6c9 -> 
+  custom:scripting/monoscript/fileName/BloomOptimized.cs: deef391a4062215fa64b13290b34b1e5 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlares.cs: 8afb5ea14b913734370925506b923fb7 -> 
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberration.cs: 6f7816e6c6a96eb38e8b34a3171a3d7a -> 
+  custom:scripting/monoscript/fileName/GlobalFog.cs: cec4a166fe83b304dd694da080c37c22 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Tonemapping.cs: c9f290b3ad74cc49f26aca1f0af02743 -> 
+  custom:scripting/monoscript/fileName/EdgeDetection.cs: 7e270773de6bd808e57f1eb909c3207a -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurves.cs: 0fe9ce599982e40ac8aba010733d7bdc -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionRamp.cs: a7e8fab02fd9ee3f41f3660b4752114a -> 
+  custom:scripting/monoscript/fileName/NoiseAndScratches.cs: e0c1886d5a6b335ec4861c2068c91d03 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 225.104128 seconds.
+  path: Assets/Games/Trailblazer/Resources/Trailblazer/BaseAbility/Attack
+  artifactKey: Guid(b448cb951d295b0469f4c562a455bb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Resources/Trailblazer/BaseAbility/Attack using Guid(b448cb951d295b0469f4c562a455bb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d12a8564d7fafc9da2da4b05b7a78e') in 0.007140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.314634 seconds.
+  path: Assets/Games/Trailblazer/Resources/Trailblazer/CharacterStat/AgilityStat.asset
+  artifactKey: Guid(b750a9f0098ac5145927f6640479d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Resources/Trailblazer/CharacterStat/AgilityStat.asset using Guid(b750a9f0098ac5145927f6640479d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1472bb5ed325021d4f7e4fe0318c8cb6') in 0.005868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.781567 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/BloodKnightClassSpecializationTemplatePackage.asset
+  artifactKey: Guid(64e7397dbd1107b47b75ab5a3733aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/BloodKnightClassSpecializationTemplatePackage.asset using Guid(64e7397dbd1107b47b75ab5a3733aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25593f42e69e8328ef23e07951a78239') in 0.696893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1311
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.259 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.524 seconds
+Domain Reload Profiling: 782ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (524ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 5009.
+Memory consumption went from 269.3 MB to 268.0 MB.
+Total: 2.098900 ms (FindLiveObjects: 0.174000 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.710500 ms  DeleteObjects: 0.156800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecated.cs: 8700a90d2d763e9c01f08a0cd128cca8 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlur.cs: 458c2b6f90eeea041921d89083a79e55 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookupEditor.cs: a2fb9e7138550e9aa0e0de2d21737d42 -> 
+  custom:scripting/monoscript/fileName/TiltShift.cs: 13ff1d7342528fc14a2e194c2bdc09fb -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientOcclusion.cs: 42eb6963a5f738a978938eb937f58d78 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: 08f2494575227b4cb3d61bcceb28feda -> 64cce655bf722c851048e2ebbf401a7b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrainEditor.cs: 0276e69b6de7374aa913d893485a004e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SunShafts.cs: abee30526487200fa16387df850e7daf -> 
+  custom:scripting/monoscript/fileName/MotionBlur.cs: 92b2659b88ad4aa26fb8c384c6435693 -> 823914e335803785a19e5990c6ab2911
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Grayscale.cs: 87671e23fd2948061f63e16eb704f3a3 -> 
+  custom:scripting/monoscript/fileName/BlurOptimized.cs: a99dff34286593c12b0fab92e7c0da68 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlurEditor.cs: 7c502cd6630e6f5609abadb3991d9ab2 -> 
+  custom:scripting/monoscript/fileName/Quads.cs: 2f24050aded65dda899533ba7849a43c -> 
+  custom:scripting/monoscript/fileName/Blur.cs: 16b33e375f19895ec61239c77165934f -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecatedEditor.cs: 9c0d6ba6950f727fa7ed1bfef973ec32 -> 
+  custom:scripting/monoscript/fileName/ImageEffects.cs: fc49fae855f2f50655b411c31423a73d -> 
+  custom:scripting/monoscript/fileName/PostEffectsBase.cs: 6aabc5a6e1a831a9196622d2796540be -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookup.cs: cdade6b297f1c116727fa6035591313f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Triangles.cs: 64f7a3839fbac059155d5ec1d8597e9c -> 
+  custom:scripting/monoscript/fileName/SunShaftsEditor.cs: 14ff19bb08f48e5592630a8ef09a85a4 -> 
+  custom:scripting/monoscript/fileName/ContrastStretch.cs: 606dc0496a32ea6e71f97dc962793c28 -> 
+  custom:scripting/monoscript/fileName/EdgeDetectionEditor.cs: 4cca3302e9c064dba4f706ba0e5d7102 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ContrastEnhance.cs: 25207a33818c5454fd86fad73189b2cd -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PostEffectsHelper.cs: 5b0aade5ee85030099a328bfa56e17eb -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CreaseShading.cs: 5b17bf81bff982a9605309492401c574 -> 
+  custom:scripting/monoscript/fileName/AntialiasingEditor.cs: cd1db322c4d4bac3e0fdd7740cc772c6 -> 
+  custom:scripting/monoscript/fileName/Antialiasing.cs: bec6c7367bf7f3b527b25907b25d4102 -> 
+  custom:scripting/monoscript/fileName/SepiaTone.cs: 67c7b044a145b042dba91a1a8d54f9f4 -> 
+  custom:scripting/monoscript/fileName/ImageEffectBase.cs: 6d460e3d17a4175e44411c6923e62aed -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrain.cs: f4f7112c95c7474ffaf494b422803169 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlaresEditor.cs: 1f9e796d927ffcd86ccbfad6ec7007d5 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientObscurance.cs: 958d0bf4e6842d24e3147fb5da01010e -> 
+  custom:scripting/monoscript/fileName/CreaseShadingEditor.cs: 10fe90e5375fc621d9f19b702723dc86 -> 
+  custom:scripting/monoscript/fileName/Fisheye.cs: ad168996bfc8fa7824e22ed9b5548fe9 -> 
+  custom:scripting/monoscript/fileName/Twirl.cs: 13260c2451d9e72af8c2f232859ba959 -> 
+  custom:scripting/monoscript/fileName/ScreenOverlay.cs: 8b6e368a4e3d0df848783015d0ee2b1e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: 30ec2f75a877490d61737e7133343649 -> 6f6d579a64201b97313a62a1e91b3575
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Vortex.cs: d2f7738ed789b7a977f000ffd0cf8890 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurvesEditor.cs: ba8c98b45b2e94f575e6b8aff77cc447 -> 
+  custom:scripting/monoscript/fileName/TonemappingEditor.cs: edac4117593cd8c316e847cfa4a2c184 -> 
+  custom:scripting/monoscript/fileName/DepthOfField.cs: 210e30d8b82aad5f2e723712ae5c23ab -> d62178d8b5619f59fcdd6d24617ef5fd
+  custom:scripting/monoscript/fileName/BloomEditor.cs: d91107ad996d0ffb3ca7e993408afdea -> c341bb26b40744c3a5c2a142ac3e1051
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberrationEditor.cs: de7480822b02f6e7bbb6e752b450d6c9 -> 
+  custom:scripting/monoscript/fileName/BloomOptimized.cs: deef391a4062215fa64b13290b34b1e5 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlares.cs: 8afb5ea14b913734370925506b923fb7 -> 
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberration.cs: 6f7816e6c6a96eb38e8b34a3171a3d7a -> 
+  custom:scripting/monoscript/fileName/GlobalFog.cs: cec4a166fe83b304dd694da080c37c22 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Tonemapping.cs: c9f290b3ad74cc49f26aca1f0af02743 -> 
+  custom:scripting/monoscript/fileName/EdgeDetection.cs: 7e270773de6bd808e57f1eb909c3207a -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurves.cs: 0fe9ce599982e40ac8aba010733d7bdc -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionRamp.cs: a7e8fab02fd9ee3f41f3660b4752114a -> 
+  custom:scripting/monoscript/fileName/NoiseAndScratches.cs: e0c1886d5a6b335ec4861c2068c91d03 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1435.734974 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/ArcherCharacterClassTemplatePackage.asset
+  artifactKey: Guid(85b9c1f59e80b4c41b619ee015c1b93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/ArcherCharacterClassTemplatePackage.asset using Guid(85b9c1f59e80b4c41b619ee015c1b93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20d989f4ae973dad78c7d786548c24d') in 0.616687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 988
+========================================================================
+Received Import Request.
+  Time since last request: 14.766552 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/FighterCharacterClassTemplatePackage.asset
+  artifactKey: Guid(241223089d8b57e41bf5e979b201725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/FighterCharacterClassTemplatePackage.asset using Guid(241223089d8b57e41bf5e979b201725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2353d03e29798dd02cb6b8c9df2449') in 0.430120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 930
+========================================================================
+Received Import Request.
+  Time since last request: 3.664439 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/AllCharacterClassesTemplatePackage.asset
+  artifactKey: Guid(89f8a7cef9b89ad4cb0a84341337f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/AllCharacterClassesTemplatePackage.asset using Guid(89f8a7cef9b89ad4cb0a84341337f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1163d0526b40939bacefbc8f474542') in 0.744685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3629
+========================================================================
+Received Import Request.
+  Time since last request: 0.590024 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/WarriorCharacterClassTemplatePackage.asset
+  artifactKey: Guid(1c9d0a13cad39f6439baacd710df2c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/WarriorCharacterClassTemplatePackage.asset using Guid(1c9d0a13cad39f6439baacd710df2c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c98efeddaceeb2a408d71d9ea4009e') in 0.467552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1160
+========================================================================
+Received Import Request.
+  Time since last request: 0.947112 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/ThiefCharacterClassTemplatePackage.asset
+  artifactKey: Guid(73b93a3460f9c4242855052f34759bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/ThiefCharacterClassTemplatePackage.asset using Guid(73b93a3460f9c4242855052f34759bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669b75b4b152be3752a991cd79e64710') in 0.438075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 991
+========================================================================
+Received Import Request.
+  Time since last request: 71.746173 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/PriestCharacterClassTemplatePackage.asset
+  artifactKey: Guid(ae1c94fe2516bb64ebf4e49bdb2ce0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/PriestCharacterClassTemplatePackage.asset using Guid(ae1c94fe2516bb64ebf4e49bdb2ce0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b192f39e80c67ee4e7a3bbed3b8b7b8') in 0.501588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 6.806938 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/MageCharacterClassTemplatePackage.asset
+  artifactKey: Guid(dd66908c7d20b9a41b755a5bd894863b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/CharacterClass/MageCharacterClassTemplatePackage.asset using Guid(dd66908c7d20b9a41b755a5bd894863b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf105904ce50d707bceefac21c069a8') in 0.492314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1117
+========================================================================
+Received Import Request.
+  Time since last request: 69.460417 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/FireMageClassSpecializationTemplatePackage.asset
+  artifactKey: Guid(a0ab373b8c4edd246aabc4f88982044b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/FireMageClassSpecializationTemplatePackage.asset using Guid(a0ab373b8c4edd246aabc4f88982044b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a640eb1fc31ae772c831e29fa188062') in 0.585481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1854
+========================================================================
+Received Import Request.
+  Time since last request: 24.208636 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/IceMageClassSpecializationTemplatePackage.asset
+  artifactKey: Guid(bb4a83b7ee73cd94c8e33992c7578ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/IceMageClassSpecializationTemplatePackage.asset using Guid(bb4a83b7ee73cd94c8e33992c7578ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd88141412632d1712b83925a3071d9') in 0.620214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1792
+========================================================================
+Received Import Request.
+  Time since last request: 1.809401 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/KnightClassSpecializationTemplatePackage.asset
+  artifactKey: Guid(c4dbe9ec0fa37dd4890fae6ce734ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/KnightClassSpecializationTemplatePackage.asset using Guid(c4dbe9ec0fa37dd4890fae6ce734ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa88f17112955165e4d70838531d6d4') in 0.483310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1274
+========================================================================
+Received Import Request.
+  Time since last request: 2.171464 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/MarksmanClassSpecializationTemplatePackage.asset
+  artifactKey: Guid(bc9cd842d36baf645bdbe3320fda0b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/MarksmanClassSpecializationTemplatePackage.asset using Guid(bc9cd842d36baf645bdbe3320fda0b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b3be592e51069baf43abace8aaa3d7') in 0.475597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1566
+========================================================================
+Received Import Request.
+  Time since last request: 1.288687 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/NecromancerClassSpecializationTemplatePackage.asset
+  artifactKey: Guid(f4840cb0ed99e794298e1c94b8a8c2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/NecromancerClassSpecializationTemplatePackage.asset using Guid(f4840cb0ed99e794298e1c94b8a8c2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6a1b85471214e85373de1f505643aa') in 0.553208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1790
+========================================================================
+Received Import Request.
+  Time since last request: 0.186190 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/RangerClassSpecializationTemplatePackage.asset
+  artifactKey: Guid(dc537dcd3555ef14ebb276510d7a5ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/ClassSpecialization/RangerClassSpecializationTemplatePackage.asset using Guid(dc537dcd3555ef14ebb276510d7a5ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb18eea9a3446d760c69fb762ccd7f35') in 0.511338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1605
+========================================================================
+Received Import Request.
+  Time since last request: 5.105895 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/Currency/GoldCurrencyGroupTemplatePackage.asset
+  artifactKey: Guid(6ceb2605e397cd3478397e31f039d517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/Currency/GoldCurrencyGroupTemplatePackage.asset using Guid(6ceb2605e397cd3478397e31f039d517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8596c672f3b58f6645bdfd2f3681dbbb') in 0.002305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 26.282266 seconds.
+  path: Assets/AnyRPG/Core/Content/TemplatePackages/Currency/GoldCurrencyGroupTemplatePackage.asset
+  artifactKey: Guid(6ceb2605e397cd3478397e31f039d517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/TemplatePackages/Currency/GoldCurrencyGroupTemplatePackage.asset using Guid(6ceb2605e397cd3478397e31f039d517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346a1ff7a5f971c8820a705fadd5d343') in 0.001681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8

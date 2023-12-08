@@ -1,0 +1,938 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker27
+-projectPath
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+-logFile
+Logs/AssetImportWorker27.log
+-srvPort
+61834
+Successfully changed project path to: C:/Users/Crazy/GitHubRepo/MMO_RPG
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [932] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 2324829571 [EditorId] 2324829571 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [932] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 2324829571 [EditorId] 2324829571 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Crazy/GitHubRepo/MMO_RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004417 seconds.
+- Loaded All Assemblies, in  0.216 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.144 seconds
+Domain Reload Profiling: 359ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (65ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (144ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (106ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.347 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 817ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4633 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.7 MB). Loaded Objects now: 5115.
+Memory consumption went from 311.5 MB to 309.9 MB.
+Total: 3.422500 ms (FindLiveObjects: 0.247500 ms CreateObjectMapping: 0.114700 ms MarkObjects: 2.598600 ms  DeleteObjects: 0.460100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.273 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 871ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (323ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4431 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (1.3 MB). Loaded Objects now: 5080.
+Memory consumption went from 271.3 MB to 270.0 MB.
+Total: 2.746100 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.078100 ms MarkObjects: 2.248100 ms  DeleteObjects: 0.197500 ms)
+
+Prepare: number of updated asset objects reloaded= 72
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74455.839955 seconds.
+  path: Assets/Spider Green/Spider_model/Materials/texture_spider.mat
+  artifactKey: Guid(78d88e566e5f7b14aaa719c52b23bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spider Green/Spider_model/Materials/texture_spider.mat using Guid(78d88e566e5f7b14aaa719c52b23bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141aecb48d13d48b7291ec317c66af42') in 0.136251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.265 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.521 seconds
+Domain Reload Profiling: 785ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (522ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 5054.
+Memory consumption went from 270.2 MB to 268.9 MB.
+Total: 2.146700 ms (FindLiveObjects: 0.172000 ms CreateObjectMapping: 0.057300 ms MarkObjects: 1.757000 ms  DeleteObjects: 0.159700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.251402 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Legs/Legs_1/Female_Legs_1_Skin.tga
+  artifactKey: Guid(83ea376788a6e334fb201a9e0d7f1f0a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Legs/Legs_1/Female_Legs_1_Skin.tga using Guid(83ea376788a6e334fb201a9e0d7f1f0a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0c90f49c68b2a0c8dfefe954eced9cc2') in 0.025915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_2/Male_Torso_2_Yellow.tga
+  artifactKey: Guid(137731f5878a0854888461fe5d956de8) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_2/Male_Torso_2_Yellow.tga using Guid(137731f5878a0854888461fe5d956de8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4268cce2555356a249bfeca3ed10f1dc') in 0.016166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_2/Female_Torso_2_Blue.tga
+  artifactKey: Guid(06d10fea00cbeb04a9581e9b6cb53ea4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_2/Female_Torso_2_Blue.tga using Guid(06d10fea00cbeb04a9581e9b6cb53ea4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b564a95f7b982f6bde63cecf043fd583') in 0.015527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Skin.tga
+  artifactKey: Guid(e1a544a448061d745a357e31fe6d8b58) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Skin.tga using Guid(e1a544a448061d745a357e31fe6d8b58) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '03c01e0347f2e73146df32a18fac294d') in 0.016112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Legs/Legs_3/Male_Legs_3_Black.tga
+  artifactKey: Guid(44a114313249cb845ae137db9f32c268) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Legs/Legs_3/Male_Legs_3_Black.tga using Guid(44a114313249cb845ae137db9f32c268) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '33f89415dc8d788caaa2e22975f873e0') in 0.015004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Legs/Legs_2/Female_Legs_2_Black.tga
+  artifactKey: Guid(84cb98ddacd24ee42a8a7df5d2c08554) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Legs/Legs_2/Female_Legs_2_Black.tga using Guid(84cb98ddacd24ee42a8a7df5d2c08554) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2bff0abd400a74ffb719940817de8e04') in 0.015383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_2/Female_Torso_2_Yellow.tga
+  artifactKey: Guid(b8fe462be9ffa614bac1da59e4192248) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_2/Female_Torso_2_Yellow.tga using Guid(b8fe462be9ffa614bac1da59e4192248) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '34df2b3eb2b822f71509bb1398c6fe8c') in 0.015647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Legs/Legs_3/Female_Legs_3_White.tga
+  artifactKey: Guid(941f9f28590e04e4e88dcd2a32d64ae6) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Legs/Legs_3/Female_Legs_3_White.tga using Guid(941f9f28590e04e4e88dcd2a32d64ae6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'df7e23d618f99a6172d32d9805e460bc') in 0.014357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Normals.tga
+  artifactKey: Guid(f07fb0eb8d7dfae49b757d5135b3ff7a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Normals.tga using Guid(f07fb0eb8d7dfae49b757d5135b3ff7a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f0dffb5caa7cd85ca13a5bb32e8dddfe') in 0.014867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_1/Male_Hair_1_Blond.tga
+  artifactKey: Guid(470fc593357f69e41aa35f4428d30bdb) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_1/Male_Hair_1_Blond.tga using Guid(470fc593357f69e41aa35f4428d30bdb) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3352a24a724eb5215085cfb734a4935c') in 0.015394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Heads/Head_2/Male_Head_2.tga
+  artifactKey: Guid(b7d117414e94a2b4490bd8b0968743da) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Heads/Head_2/Male_Head_2.tga using Guid(b7d117414e94a2b4490bd8b0968743da) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cd509976cd1a9b1e8376fcbec481eda2') in 0.014649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Heads/Head_2/Male_Head_2_Normals.tga
+  artifactKey: Guid(9d6477c809bef7d40a5970fdcf75678e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Heads/Head_2/Male_Head_2_Normals.tga using Guid(9d6477c809bef7d40a5970fdcf75678e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ec03c73c3f931e476c9fe97c30d08312') in 0.012945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_3/Male_Torso_3_Red.tga
+  artifactKey: Guid(1532ec001004e9d4fa1d55e148356175) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_3/Male_Torso_3_Red.tga using Guid(1532ec001004e9d4fa1d55e148356175) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '219dbab6a00a0901704f1ab91f815780') in 0.013460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Green.tga
+  artifactKey: Guid(adaf6facc05fabc47bc7a3340e9b5c7e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Green.tga using Guid(adaf6facc05fabc47bc7a3340e9b5c7e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'af04f101c5c53731f0266648120a6450') in 0.015291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Legs/Base Legs/Male_Base_Legs_Normals.tga
+  artifactKey: Guid(1b1a3135e8b7f9b48b52baa70eb0fd8a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Legs/Base Legs/Male_Base_Legs_Normals.tga using Guid(1b1a3135e8b7f9b48b52baa70eb0fd8a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3c51b3947e83d8710ae3a52886c40963') in 0.012075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Red.tga
+  artifactKey: Guid(3057fd2a75f0a6e45b2d2a333aef543c) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Red.tga using Guid(3057fd2a75f0a6e45b2d2a333aef543c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'dc8b273cfaa57eb5a918a46cc801fbbc') in 0.015854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_3/Male_Torso_3_Skin.tga
+  artifactKey: Guid(9c939e5100b9c0041bac3454eeedf307) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_3/Male_Torso_3_Skin.tga using Guid(9c939e5100b9c0041bac3454eeedf307) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '84ee8fc7941f67e15d7bf458fb0ae2ed') in 0.016890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Black.tga
+  artifactKey: Guid(2d067327324af2441aeed3920cd67353) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Black.tga using Guid(2d067327324af2441aeed3920cd67353) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'da79da826381a6c09bed384c16374d6b') in 0.020387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Heads/Head_3/Male_Head_3_Normals.tga
+  artifactKey: Guid(8d9dfb25319ed3d4b90ee6b66e669fed) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Heads/Head_3/Male_Head_3_Normals.tga using Guid(8d9dfb25319ed3d4b90ee6b66e669fed) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9fb76b775ed7d8c6119260625f668fa9') in 0.013151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Legs/Legs_1/Female_Legs_1_Normals.tga
+  artifactKey: Guid(ce609b68f9b608f4583de060bef9c550) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Legs/Legs_1/Female_Legs_1_Normals.tga using Guid(ce609b68f9b608f4583de060bef9c550) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e5e053e68a65ffcd3bbef3df8f459611') in 0.012591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Heads/Head_1/Female_Head_1.tga
+  artifactKey: Guid(81783cf145707454fa8e3d534db9ccd8) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Heads/Head_1/Female_Head_1.tga using Guid(81783cf145707454fa8e3d534db9ccd8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7408d4fa37ecbfd0e5d13c29a619c081') in 0.016418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Cartoon Heroes/Weapons/Sword_3/Textures/Sword_3_Gray.tga
+  artifactKey: Guid(23e30db1b63414d4b83c6c732f8904c6) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Weapons/Sword_3/Textures/Sword_3_Gray.tga using Guid(23e30db1b63414d4b83c6c732f8904c6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e4f00a3bd08cd47ff1a1beebe70ced60') in 0.014947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Legs/Legs_1/Female_Legs_1_Normals_Skin.tga
+  artifactKey: Guid(46384610f4ef9ba42b213012859c2aaf) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Legs/Legs_1/Female_Legs_1_Normals_Skin.tga using Guid(46384610f4ef9ba42b213012859c2aaf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1392c97331143ba4be0638ef046f3192') in 0.022898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Base Torso/Female_Base_Torso.tga
+  artifactKey: Guid(fb4eb6267ecaa5048a299c0f5a4e7c00) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Base Torso/Female_Base_Torso.tga using Guid(fb4eb6267ecaa5048a299c0f5a4e7c00) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'aaa0270f8ad36f4a27b5e6928fb26cf2') in 0.018215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Blue.tga
+  artifactKey: Guid(20f9b14a64bc3a0409172098e2a2c93e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Blue.tga using Guid(20f9b14a64bc3a0409172098e2a2c93e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0650bb128c56fab7354515ef3d6138ca') in 0.015509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Legs/Legs_1/Female_Legs_1_Skin_Covered.tga
+  artifactKey: Guid(ab8631b81522cc4428d8a51cb46b93fc) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Legs/Legs_1/Female_Legs_1_Skin_Covered.tga using Guid(ab8631b81522cc4428d8a51cb46b93fc) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f8f2f5c38b34d690b5b82a4356d1a237') in 0.015170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_1/Female_Torso_1_Red.tga
+  artifactKey: Guid(d1205b9f3646d8441a2043e67f3a573c) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_1/Female_Torso_1_Red.tga using Guid(d1205b9f3646d8441a2043e67f3a573c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6df13754ff7eaa15eba07697e6bdbca9') in 0.016354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Heads/Head_1/Female_Head_1_Normals.tga
+  artifactKey: Guid(3db5bacef9acf3e448c765822f50dd33) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Heads/Head_1/Female_Head_1_Normals.tga using Guid(3db5bacef9acf3e448c765822f50dd33) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ad32e98b0519f9cd285af2d9bda29b13') in 0.014677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Blue.tga
+  artifactKey: Guid(19137f3eb09828f4c83eb1a56b8da66c) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Blue.tga using Guid(19137f3eb09828f4c83eb1a56b8da66c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6854d080e32fc5ceaae064554ddc0281') in 0.014192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Normals.tga
+  artifactKey: Guid(b3690a33194a9b54d97311def026e99e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Normals.tga using Guid(b3690a33194a9b54d97311def026e99e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b70d5495f8e60295b5454efe37941733') in 0.011896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_2/Male_Hair_2.tga
+  artifactKey: Guid(0c1add579f6c7ac4590aecb480b26481) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_2/Male_Hair_2.tga using Guid(0c1add579f6c7ac4590aecb480b26481) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd30379a5057a2bb5fb3483a9f6e611e3') in 0.015162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_1/Female_Torso_1_Skin_Normals.tga
+  artifactKey: Guid(e8195eef4366da940a6ed5623e01002b) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_1/Female_Torso_1_Skin_Normals.tga using Guid(e8195eef4366da940a6ed5623e01002b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f61b5c461bbc3c837705741ed99cc4ca') in 0.007819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_3/Male_Hair_3_Normals.tga
+  artifactKey: Guid(802577ce50bc8994d8bfcebacb33abe9) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_3/Male_Hair_3_Normals.tga using Guid(802577ce50bc8994d8bfcebacb33abe9) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8d9eab1d951910bd65ec2ea8d8356aa3') in 0.013464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Heads/Head_2/Female_Head_2_Normals.tga
+  artifactKey: Guid(e08c4158e9f33e24fabb65e0630748c4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Heads/Head_2/Female_Head_2_Normals.tga using Guid(e08c4158e9f33e24fabb65e0630748c4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5d993bebf989880a2cb927d7e2799030') in 0.012553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_1/Female_Hair_1.tga
+  artifactKey: Guid(2ec0a93010ee7b947b6b59d9289e334e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_1/Female_Hair_1.tga using Guid(2ec0a93010ee7b947b6b59d9289e334e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '944ac3a25f034466732144a23257fa18') in 0.018309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_2/Male_Torso_2_Normals.tga
+  artifactKey: Guid(1e699ba40e1cc3540ba19871d027475e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_2/Male_Torso_2_Normals.tga using Guid(1e699ba40e1cc3540ba19871d027475e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd595221eea4d20513cb11a4c30e118b1') in 0.020730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_1/Male_Hair_1_Normals.tga
+  artifactKey: Guid(88d9a40737bb7424b8ee0c1304e0d884) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_1/Male_Hair_1_Normals.tga using Guid(88d9a40737bb7424b8ee0c1304e0d884) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c98d34ce94b5a962bacf652bb517c38e') in 0.024722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_3/Male_Torso_3_Yellow.tga
+  artifactKey: Guid(47fdd8c7547eb5749ad4cbc84a681b71) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_3/Male_Torso_3_Yellow.tga using Guid(47fdd8c7547eb5749ad4cbc84a681b71) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '150b827c276f813ec7c021b8eb3c94c9') in 0.024264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Heroes/Weapons/Sword_2/Textures/Sword_2_Yellow.tga
+  artifactKey: Guid(2ed8b252901990943a7204bea91cadb4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Weapons/Sword_2/Textures/Sword_2_Yellow.tga using Guid(2ed8b252901990943a7204bea91cadb4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e7e239b5979902d281229ce836967605') in 0.047932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Legs/Legs_1/Male_Legs_1_Brown.tga
+  artifactKey: Guid(a3ccca445118bcf4d81429c3b83ed0e6) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Legs/Legs_1/Male_Legs_1_Brown.tga using Guid(a3ccca445118bcf4d81429c3b83ed0e6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4b160491ba19d824126f6e6db2ae93bb') in 0.040393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_1/Female_Torso_1_Green.tga
+  artifactKey: Guid(21918312c77c9ff4fac36af8009f5d90) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_1/Female_Torso_1_Green.tga using Guid(21918312c77c9ff4fac36af8009f5d90) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e5e8d6b084ace6348ea6bfebce194be0') in 0.041987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Heads/Head_3/Female_Head_3.tga
+  artifactKey: Guid(32963c8796b41144e879a85cb79b2119) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Heads/Head_3/Female_Head_3.tga using Guid(32963c8796b41144e879a85cb79b2119) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4005ccfaef44ccd0e47ed11d05cb7939') in 0.046308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_4/Male_Hair_4_Normals.tga
+  artifactKey: Guid(9298e356c40cb534793bd809c21da97e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_4/Male_Hair_4_Normals.tga using Guid(9298e356c40cb534793bd809c21da97e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '14d3fc5189c8fd0a76ab10c014d6d500') in 0.042593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Yellow.tga
+  artifactKey: Guid(20ea5cf657bcf7d4ea119a41e8138946) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_3/Female_Torso_3_Yellow.tga using Guid(20ea5cf657bcf7d4ea119a41e8138946) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '26def6deb62002cc52f6d6d525836668') in 0.036553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Heads/Head_3/Male_Head_3.tga
+  artifactKey: Guid(42e7299d1cc08fe4e9ace5fb1d9c2405) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Heads/Head_3/Male_Head_3.tga using Guid(42e7299d1cc08fe4e9ace5fb1d9c2405) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2fec7710b85f39ad714263cd3f686baf') in 0.027130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_2/Female_Torso_2_Skin.tga
+  artifactKey: Guid(317c5a6acd6087846be2b21d4e677167) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Torsos/Torso_2/Female_Torso_2_Skin.tga using Guid(317c5a6acd6087846be2b21d4e677167) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd7ae7ea276e6c9fb2efc925b31bd67c1') in 0.016268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_2/Male_Hair_2_Normals.tga
+  artifactKey: Guid(83a6e434062c8674aa582c7745888fdf) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_2/Male_Hair_2_Normals.tga using Guid(83a6e434062c8674aa582c7745888fdf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '600f81518e804e3013bfbd85991d4e71') in 0.028414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Legs/Legs_1/Male_Legs_1_Normals.tga
+  artifactKey: Guid(bdc0ffb7c26daef469d49ca8027315e4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Legs/Legs_1/Male_Legs_1_Normals.tga using Guid(bdc0ffb7c26daef469d49ca8027315e4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c8fe18027f30764e6e2a38f73dc99f98') in 0.037527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Legs/Legs_3/Male_Legs_3_Brown.tga
+  artifactKey: Guid(52c437022ade52346b34ffa5e4786176) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Legs/Legs_3/Male_Legs_3_Brown.tga using Guid(52c437022ade52346b34ffa5e4786176) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '15d79983feb7b7fd465739630ceb3894') in 0.045737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Brown.tga
+  artifactKey: Guid(a548bb925d70de548a1bbc3a288d0c43) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Brown.tga using Guid(a548bb925d70de548a1bbc3a288d0c43) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ecb64c61bd6d946a47eff226dc759a3d') in 0.024891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cartoon Heroes/Weapons/Sword_2/Textures/Sword_2_Gray.tga
+  artifactKey: Guid(b3164962e9717604fb0237f15d4437f1) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Weapons/Sword_2/Textures/Sword_2_Gray.tga using Guid(b3164962e9717604fb0237f15d4437f1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8c5dc3b58ede2d95127319a403de9fef') in 0.033190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_1/Female_Hair_1_Blond.tga
+  artifactKey: Guid(2bf4a28519412da46abab4bc47cb61b4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_1/Female_Hair_1_Blond.tga using Guid(2bf4a28519412da46abab4bc47cb61b4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f89aab367447397e1147982545017baa') in 0.030192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Red.tga
+  artifactKey: Guid(34927f992bd01d9499efbbd6a763c744) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Red.tga using Guid(34927f992bd01d9499efbbd6a763c744) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '16e5d03919f233370611dc5831941032') in 0.037857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_3/Female_Hair_3_Blond.tga
+  artifactKey: Guid(22c33ff773530c44b930801e91ebe756) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_3/Female_Hair_3_Blond.tga using Guid(22c33ff773530c44b930801e91ebe756) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '012576804ba8ac51c044a53b691726d3') in 0.039605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_1/Female_Hair_1_Normals.tga
+  artifactKey: Guid(b62b3b804641e8741ae0f8f5a28c11c8) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_1/Female_Hair_1_Normals.tga using Guid(b62b3b804641e8741ae0f8f5a28c11c8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '98147e5c295b633016dc6c30370102a9') in 0.051476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_2/Female_Hair_2_Normals.tga
+  artifactKey: Guid(7634275939255974dbd36ef280c5589c) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_2/Female_Hair_2_Normals.tga using Guid(7634275939255974dbd36ef280c5589c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e550847a6c9301c52d473ae708ace35a') in 0.022349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Heroes/Weapons/Sword_4/Textures/Sword_4_Gray.tga
+  artifactKey: Guid(708e9f5cf5ec14e47a05b9878e7f199e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Weapons/Sword_4/Textures/Sword_4_Gray.tga using Guid(708e9f5cf5ec14e47a05b9878e7f199e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a534f9bab7c87a9696add21fa4b0762c') in 0.052120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_3/Male_Hair_3.tga
+  artifactKey: Guid(28d57b2d3807efe47a27214f0006169a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/Textures/Hairs/Hair_3/Male_Hair_3.tga using Guid(28d57b2d3807efe47a27214f0006169a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a35091b4ca71e42385521c6a68c0ecc6') in 0.034953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_4/Female_Hair_4.tga
+  artifactKey: Guid(1b4fceadb6803a34e9769d42f5ae8e1a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_4/Female_Hair_4.tga using Guid(1b4fceadb6803a34e9769d42f5ae8e1a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1f047a1f0c5aeb14b5892ed40c7ac961') in 0.035475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_3/Female_Hair_3.tga
+  artifactKey: Guid(406a3462cd52d92429569ee770e848ba) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/Textures/Hairs/Hair_3/Female_Hair_3.tga using Guid(406a3462cd52d92429569ee770e848ba) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '244e0ba772c463fec818ac47fe9e685c') in 0.035511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.262248 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Idle.FBX
+  artifactKey: Guid(f03b4671842f14f4b98bfc645df0e1ed) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Idle.FBX using Guid(f03b4671842f14f4b98bfc645df0e1ed) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 10.954265%;
+ -> (artifact id: 'c2df630fe2fcebdb4f22d678513b93b3') in 0.094500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Damage.FBX
+  artifactKey: Guid(436e584145a65834ba98fc684b2e4934) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Damage.FBX using Guid(436e584145a65834ba98fc684b2e4934) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 36.011120%;
+ -> (artifact id: '17b0dcba089826560cf524ca6e953978') in 0.059968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Walk.FBX
+  artifactKey: Guid(958bd2cccfa87b74a9a880ee35f4f534) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Walk.FBX using Guid(958bd2cccfa87b74a9a880ee35f4f534) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 39.339020%;
+ -> (artifact id: '11f4374d3987b8210d5a76d873c6a7a3') in 0.050518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Damage.FBX
+  artifactKey: Guid(1b31cb902429704429a2c2584363dd59) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Damage.FBX using Guid(1b31cb902429704429a2c2584363dd59) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 43.328915%;
+ -> (artifact id: '211f5637decc4209189d3cc7604c1f5b') in 0.053344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Walk.FBX
+  artifactKey: Guid(0f5f811a33031524680b227a45dc9848) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Walk.FBX using Guid(0f5f811a33031524680b227a45dc9848) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 39.872070%;
+ -> (artifact id: '2f3c9e05741ddaae1b8899971917de02') in 0.053115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Damage.FBX
+  artifactKey: Guid(9c291ec3850f7004fa3da8ac7a2397d5) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Damage.FBX using Guid(9c291ec3850f7004fa3da8ac7a2397d5) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 42.208466%;
+ -> (artifact id: '7d83a85286b8b1ae32d132afd41dbdf2') in 0.060889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.025334 seconds.
+  path: Assets/Cartoon Heroes/Weapons/Sword_3/3D/Sword_3.FBX
+  artifactKey: Guid(1e896d25e837a2c419844a06e967bbc1) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Weapons/Sword_3/3D/Sword_3.FBX using Guid(1e896d25e837a2c419844a06e967bbc1) Importer(-1,00000000000000000000000000000000) CreateSerializedAsset is not supported while importing out-of-process
+ -> (artifact id: '1a5208c86442650453e78cc1df62ce66') in 0.047776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cartoon Heroes/Weapons/Sword_4/3D/Sword_4_Short.FBX
+  artifactKey: Guid(cccf6118661e37e499602b684994509b) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Weapons/Sword_4/3D/Sword_4_Short.FBX using Guid(cccf6118661e37e499602b684994509b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '16cfb093c93ccb61577a6c266fbf7b36') in 0.022603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Legs/Legs_1/Male_Legs_1.FBX
+  artifactKey: Guid(d7739944e3990de4bbb0cfdc16f876fa) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/3D/Legs/Legs_1/Male_Legs_1.FBX using Guid(d7739944e3990de4bbb0cfdc16f876fa) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '65fea6d545baa01b8f2a2cfc69843159') in 0.040342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Heroes/Weapons/Sword_1/3D/Sword_1_Short.FBX
+  artifactKey: Guid(1f1cd6faa38270c449338bafe0a4b7ce) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Weapons/Sword_1/3D/Sword_1_Short.FBX using Guid(1f1cd6faa38270c449338bafe0a4b7ce) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '330539dc8b9d2a84769c8798b59ba293') in 0.019981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Hairs/Hair_3/Male_Hair_3.FBX
+  artifactKey: Guid(ba81bc73c9f97274688f3affce011d50) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/3D/Hairs/Hair_3/Male_Hair_3.FBX using Guid(ba81bc73c9f97274688f3affce011d50) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd3af4c5349a64d6ade7b44685e1c5ea5') in 0.038934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Female_Animation_Skeleton.FBX
+  artifactKey: Guid(d4bc8aeee1248da43a4176631929bc9d) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Female_Animation_Skeleton.FBX using Guid(d4bc8aeee1248da43a4176631929bc9d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '955f99b190b08b31742804bdb389b352') in 0.042569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Heads/Head_2/Male_Head_2.FBX
+  artifactKey: Guid(284b2fec4918654439cf2eb3a1bb5c44) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/3D/Heads/Head_2/Male_Head_2.FBX using Guid(284b2fec4918654439cf2eb3a1bb5c44) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c53ccdb8c28e1b1c71cbc97f6781cb54') in 0.045244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Torsos/Torso_2/Male_Torso_2.FBX
+  artifactKey: Guid(a54c56bf4e395ac4c940603b7b12ee75) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/3D/Torsos/Torso_2/Male_Torso_2.FBX using Guid(a54c56bf4e395ac4c940603b7b12ee75) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '035c525ff85b20c2ca2c5f26364c2259') in 0.069744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Torsos/Torso_3/Male_Torso_3.FBX
+  artifactKey: Guid(e8eb09b19391bfe4eab8554eac44634f) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Cartoon Heroes/Male/3D/Torsos/Torso_3/Male_Torso_3.FBX using Guid(e8eb09b19391bfe4eab8554eac44634f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2ec8f3766211f0f77ef45872fffb3ae8') in 0.061604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

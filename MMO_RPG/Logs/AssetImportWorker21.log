@@ -1,0 +1,635 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker21
+-projectPath
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+-logFile
+Logs/AssetImportWorker21.log
+-srvPort
+61834
+Successfully changed project path to: C:/Users/Crazy/GitHubRepo/MMO_RPG
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17364] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 4169858495 [EditorId] 4169858495 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17364] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 4169858495 [EditorId] 4169858495 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Crazy/GitHubRepo/MMO_RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003917 seconds.
+- Loaded All Assemblies, in  0.195 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.140 seconds
+Domain Reload Profiling: 334ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (57ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (141ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (108ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.366 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.455 seconds
+Domain Reload Profiling: 819ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (356ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4986.
+Memory consumption went from 282.1 MB to 280.7 MB.
+Total: 2.280800 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.070100 ms MarkObjects: 1.802000 ms  DeleteObjects: 0.210900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73535.020393 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab
+  artifactKey: Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab using Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fbc0abafdcba78b6413dbe36b139b4') in 0.064352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.241 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 772ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (532ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (290ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4998.
+Memory consumption went from 266.6 MB to 265.3 MB.
+Total: 2.173800 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.061300 ms MarkObjects: 1.772100 ms  DeleteObjects: 0.153700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.270 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.501 seconds
+Domain Reload Profiling: 769ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4483 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 5053.
+Memory consumption went from 270.1 MB to 268.8 MB.
+Total: 3.601700 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.101000 ms MarkObjects: 2.933700 ms  DeleteObjects: 0.291100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 679.700781 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Noise.png
+  artifactKey: Guid(e80c3c84ea861404d8a427db8b7abf04) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Noise.png using Guid(e80c3c84ea861404d8a427db8b7abf04) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '60bace09e344f3ad7e47f050b4e14a1d') in 0.034608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd
+  artifactKey: Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd using Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8167af44b0b1863a92e00d74aa096fd3') in 0.010300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree03_Textures/normal_specular.png
+  artifactKey: Guid(62a80745906a31e4e80055fd7ec2add8) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree03_Textures/normal_specular.png using Guid(62a80745906a31e4e80055fd7ec2add8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '34f4c99efb973fd0c410f94dababc2ba') in 0.044438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/NatureStarterKit2/Textures/sky.tga
+  artifactKey: Guid(566cada353cad2441ba7b045c8ea1a79) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/sky.tga using Guid(566cada353cad2441ba7b045c8ea1a79) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '53387e26116941d321a31fa7ddb27ada') in 0.167622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush02_Textures/normal_specular.png
+  artifactKey: Guid(a0d503ff62e3323448a75a7485e3c50b) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush02_Textures/normal_specular.png using Guid(a0d503ff62e3323448a75a7485e3c50b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8582611ee38813669d050f09179524de') in 0.012629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Textures/FlareStar.psd
+  artifactKey: Guid(51dc82ef9d11c594d000e7c9e39e7c39) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Textures/FlareStar.psd using Guid(51dc82ef9d11c594d000e7c9e39e7c39) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '91b825aafafa5285eb76cc5c9a43190d') in 0.005905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/NatureStarterKit2/Textures/sky.psd
+  artifactKey: Guid(76978aa5b0f025044af653342c95adac) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/sky.psd using Guid(76978aa5b0f025044af653342c95adac) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'caadd2c63bb55eb25fe50324aaf146d1') in 0.090102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree03_Textures/diffuse.png
+  artifactKey: Guid(f82d7808d61c0fe40ac870b61d38c05f) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree03_Textures/diffuse.png using Guid(f82d7808d61c0fe40ac870b61d38c05f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '50e05df898939a653f773d2af2203833') in 0.025881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush01_Textures/diffuse.png
+  artifactKey: Guid(f09d087d144fc6f4a8b97c748f7e48f1) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush01_Textures/diffuse.png using Guid(f09d087d144fc6f4a8b97c748f7e48f1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6f4e69eba43de716a38ccc9c5d28abc0') in 0.029402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04_Textures/normal_specular.png
+  artifactKey: Guid(198f2f9f3ce914b4196c142c0614649f) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/normal_specular.png using Guid(198f2f9f3ce914b4196c142c0614649f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0a33bbd1111447e6af749a1c7427585c') in 0.021005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush03_Textures/shadow.png
+  artifactKey: Guid(9663e13e6c841444cafc1bed4dbcc299) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush03_Textures/shadow.png using Guid(9663e13e6c841444cafc1bed4dbcc299) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2bb04de3d25129cea018867e8f6e7538') in 0.019079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush05_Textures/shadow.png
+  artifactKey: Guid(dd66a18c48485c04081d7545c87b5804) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush05_Textures/shadow.png using Guid(dd66a18c48485c04081d7545c87b5804) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '381d7db98f8b14450bf5a38b54028403') in 0.014704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png
+  artifactKey: Guid(e9a9781cad112c75d0008dfa8d76c639) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png using Guid(e9a9781cad112c75d0008dfa8d76c639) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3871df05a66fcc869ba5b84566e736cf') in 0.009460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush06_Textures/translucency_gloss.png
+  artifactKey: Guid(a1d7ed651121f6b438e5ac9602ede8a1) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush06_Textures/translucency_gloss.png using Guid(a1d7ed651121f6b438e5ac9602ede8a1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6e0775d834388b4b5ca1acc19dc7c79c') in 0.023162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush03_Textures/normal_specular.png
+  artifactKey: Guid(3d94ae574d920c5449fe4e032d8c414d) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush03_Textures/normal_specular.png using Guid(3d94ae574d920c5449fe4e032d8c414d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7cf3e46d42487ede2db53656424d9a3c') in 0.024701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NatureStarterKit2/Textures/bush01.tga
+  artifactKey: Guid(cd0dd843ef8672e4896d03c7a66fa5da) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/bush01.tga using Guid(cd0dd843ef8672e4896d03c7a66fa5da) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ad57b48eea34210ca5ec481e5a7e714f') in 0.035076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree02_Textures/translucency_gloss.png
+  artifactKey: Guid(da1974f349a2d6a4696866fae760fef8) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree02_Textures/translucency_gloss.png using Guid(da1974f349a2d6a4696866fae760fef8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ba3697fddfbd24f442132b01bcc3b3b1') in 0.016413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedNormals.tif
+  artifactKey: Guid(4b8d081e9d114c7f1100f5ab44295342) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedNormals.tif using Guid(4b8d081e9d114c7f1100f5ab44295342) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c9ee9343692562056c47b62e4fcf9567') in 0.009409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Shadow.psd
+  artifactKey: Guid(68386fc9897223346a683105b4dc1662) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Shadow.psd using Guid(68386fc9897223346a683105b4dc1662) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a5a6827aea2e41f74fbeb0c286909584') in 0.007700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04_Textures/shadow.png
+  artifactKey: Guid(ee879bd20f6819143a6527d0c880ac6e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/shadow.png using Guid(ee879bd20f6819143a6527d0c880ac6e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2c274bdb8096d97896bb9054efdd4d4f') in 0.015343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Light.psd
+  artifactKey: Guid(b1d7fee26e54cc3498f6267f072a45b9) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Light.psd using Guid(b1d7fee26e54cc3498f6267f072a45b9) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'db1336d5c3f0f826a9fcdeb780fb53ad') in 0.007318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree04_Textures/normal_specular.png
+  artifactKey: Guid(4561489a3ef42ad4eae5f6167fc00c76) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree04_Textures/normal_specular.png using Guid(4561489a3ef42ad4eae5f6167fc00c76) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3ca786cced0c25fa7928376b85ba8c57') in 0.017530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree02_Textures/diffuse.png
+  artifactKey: Guid(da4827ac8df28d1439b10b2ec7735a68) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree02_Textures/diffuse.png using Guid(da4827ac8df28d1439b10b2ec7735a68) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'aeca016dce0cb84ddbf464f404809118') in 0.033707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush06_Textures/normal_specular.png
+  artifactKey: Guid(49660356ce0eb774b9277274d7a54b6e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush06_Textures/normal_specular.png using Guid(49660356ce0eb774b9277274d7a54b6e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e3917ad9ad0dbdf77d47e7d8a5eb3f45') in 0.022868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png
+  artifactKey: Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png using Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '84eee1afc4267405de7312ed13e193c9') in 0.007969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush06_Textures/diffuse.png
+  artifactKey: Guid(c40a1e1e56a4e2a48880f0c13f4af075) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush06_Textures/diffuse.png using Guid(c40a1e1e56a4e2a48880f0c13f4af075) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cb66f9b0f27b0b5704e0ac6418c9a15e') in 0.029983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/NatureStarterKit2/Textures/ground03.psd
+  artifactKey: Guid(8d1a7eedfea109c4f892a29974c0b440) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/ground03.psd using Guid(8d1a7eedfea109c4f892a29974c0b440) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '538af99e4412c7865ad6e266c6b1cafb') in 0.122469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree02_Textures/shadow.png
+  artifactKey: Guid(3dec27efd56514645878b45ee3ec32a4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree02_Textures/shadow.png using Guid(3dec27efd56514645878b45ee3ec32a4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b7e5bb43bcfef4f8eff9580b38271cb1') in 0.022108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005833 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush06_Textures/shadow.png
+  artifactKey: Guid(d98f7f433a35e2644b3737f5b6abbe8a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush06_Textures/shadow.png using Guid(d98f7f433a35e2644b3737f5b6abbe8a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'bcc3789bc6066311fa166affb0f017a4') in 0.023320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd
+  artifactKey: Guid(1167c0a28d11119930004d8a4241aa39) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd using Guid(1167c0a28d11119930004d8a4241aa39) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1f0222eb2299910e552cf35276329d8b') in 0.013268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png
+  artifactKey: Guid(a4b474cd484494a4aaa4bbf928219d09) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png using Guid(a4b474cd484494a4aaa4bbf928219d09) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '34aa3c69252a88bc13bb9b3069b77b07') in 0.010589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree01_Textures/shadow.png
+  artifactKey: Guid(be1ad731c04407f45b029b05b032834f) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree01_Textures/shadow.png using Guid(be1ad731c04407f45b029b05b032834f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5a8a4124318a11269e672e94559f0c02') in 0.019957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush01_Textures/translucency_gloss.png
+  artifactKey: Guid(cf9b478cf6fc37d4db53b2670e435165) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush01_Textures/translucency_gloss.png using Guid(cf9b478cf6fc37d4db53b2670e435165) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b609ab0e167cc7d4783d3f7ab1b57375') in 0.023532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree01_Textures/diffuse.png
+  artifactKey: Guid(bc1041f423dc3314e8998435028d0fd3) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree01_Textures/diffuse.png using Guid(bc1041f423dc3314e8998435028d0fd3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '33a297cd498f8533eaee56457f824574') in 0.029856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NatureStarterKit2/Textures/ground03.tga
+  artifactKey: Guid(5edd0aaa57578b84da829c036eecf914) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/ground03.tga using Guid(5edd0aaa57578b84da829c036eecf914) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '95a267477980ef6cf69b93bd50ff35ae') in 0.089601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Falloff.psd
+  artifactKey: Guid(23740055e2b119e40a939138ab8070f8) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Falloff.psd using Guid(23740055e2b119e40a939138ab8070f8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3e98710a3d16c0ac9f6a46011f1a4ae6') in 0.006192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree04_Textures/shadow.png
+  artifactKey: Guid(72f5e509a5e5ca04a9cc9e1b40193f99) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree04_Textures/shadow.png using Guid(72f5e509a5e5ca04a9cc9e1b40193f99) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '34799d6a21788abc6072821e079fd12d') in 0.020390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png
+  artifactKey: Guid(ffa9c02760c2b4e8eb9814ec06c4b05b) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png using Guid(ffa9c02760c2b4e8eb9814ec06c4b05b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5d399fb6146c03cf40e93d09f6fb4813') in 0.009080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d67e3801170622341be03526c0ae62e0, type: 3}
+  m_Name: PriestCharacterClass
+  m_EditorClassIdentifier: 
+  resourceName: Priest
+  displayName: 
+  icon: {fileID: 21300000, guid: bff1d48731685ec428be2663a3abfd54, type: 3}
+  iconBackgroundImage: {fileID: 0}
+  description: 'Role: Support Healer
+
+    Primary Weapon: Staff
+
+    Key Attributes:
+    Wisdom, Healing Power, Spirit
+
+    Specializations:
+
+    Healer: Focus on direct
+    healing spells.
+
+    Divine Aegis: Shielding and protective spells.
+
+    Spiritual
+    Guide: Buffs and utility for the party.
+
+    Unique Abilities:
+
+    Healing Light:
+    Powerful single-target healing spell.
+
+    Divine Shield: Absorbs damage for
+    a duration.
+
+    Benediction: AoE healing and cleansing.
+
+    Supportive: Primary
+    focus on healing and providing buffs.
+
+    Versatility: Adapts to different situations
+    with healing and protective abilities.
+
+    Spiritual Guidance: Enhances the
+    party''s overall resilience and effectiveness.'
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  newGameOption: 1
+  equipmentNames:
+  - Medieval Staff
+  - Gray Cloth Bracers
+  - Gray Cloth Gloves
+  - Gray Cloth Hood
+  - Gray Cloth Mantle
+  - Gray Cloth Pants
+  - Gray Cloth Robe
+  - Gray Cloth Sash
+  - Gray Cloth Shoes
+  capabilities:
+    abilityNames:
+    - Heal
+    - Heal Over Time
+    - Healing Projectile
+    - Healing Channel
+    - Healing Circle
+    - Healing Explosion
+    - Revive Ally
+    - Cure Poison
+    traitNames: []
+    armorClassList:
+    - Cloth
+    weaponSkills:
+    - Staff
+    - Wand
+    validPetTypes: []
+    startingPets: []
+  unitTypeCapabilities: []
+  primaryStats:
+  - statName: Intellect
+    budgetPerLevel: 5
+    primaryToSecondaryConversion:
+    - secondaryStatType: 6
+      conversionRatio: 1
+      ratedConversion: 0
+    - secondaryStatType: 2
+      conversionRatio: 0.5
+      ratedConversion: 1
+    primaryToResourceConversion:
+    - resourceName: Mana
+      resourcePerPoint: 10
+    regen: []
+  powerResources:
+  - Mana

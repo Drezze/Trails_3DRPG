@@ -1,0 +1,485 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+61834
+Successfully changed project path to: C:/Users/Crazy/GitHubRepo/MMO_RPG
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17372] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 4119531651 [EditorId] 4119531651 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17372] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 4119531651 [EditorId] 4119531651 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Crazy/GitHubRepo/MMO_RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003281 seconds.
+- Loaded All Assemblies, in  0.217 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.147 seconds
+Domain Reload Profiling: 364ms
+	BeginReloadAssembly (60ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (59ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (148ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (110ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.506 seconds
+Domain Reload Profiling: 971ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (506ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4985.
+Memory consumption went from 281.7 MB to 280.4 MB.
+Total: 3.390400 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.143300 ms MarkObjects: 2.681600 ms  DeleteObjects: 0.312300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72894.827541 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Bow_01.prefab
+  artifactKey: Guid(f307e862b0d4a6d4f81b57e34ae86704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Bow_01.prefab using Guid(f307e862b0d4a6d4f81b57e34ae86704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4832667f54d234a2cb40304291a661c4') in 0.154855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 90.671586 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordArc.png
+  artifactKey: Guid(361f501e4863a004fb0bc539728ceac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordArc.png using Guid(361f501e4863a004fb0bc539728ceac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54b2a2d0f2af2ec15eee20ce5958962') in 0.023671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001083 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordFalchionRed2.png
+  artifactKey: Guid(852736f1b6ed77e4ba1c6ef93b626d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordFalchionRed2.png using Guid(852736f1b6ed77e4ba1c6ef93b626d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf649904ccb9c46a3f2dcd048bcba0d') in 0.013707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003305 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordFire.png
+  artifactKey: Guid(1126c012882a24347b5fcfdbeff08bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordFire.png using Guid(1126c012882a24347b5fcfdbeff08bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637e3ca6fdee63b23585c8080c2ca680') in 0.015203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001852 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordHitGlowCyanBG.png
+  artifactKey: Guid(832926fd26ae14e4d9936482a7fdb51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordHitGlowCyanBG.png using Guid(832926fd26ae14e4d9936482a7fdb51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e09282ab69f25db9e044e74cc574f4') in 0.015029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordHitGlowVioletBG.png
+  artifactKey: Guid(25eeccbcf03ef5044a6b60f7a2cb7b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordHitGlowVioletBG.png using Guid(25eeccbcf03ef5044a6b60f7a2cb7b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d65e5d18451b061cf9770a8cf03ac00') in 0.015127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordMoon.png
+  artifactKey: Guid(cdeb98960092cd44ab9abdcb24493d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordMoon.png using Guid(cdeb98960092cd44ab9abdcb24493d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2891f9462f330f49eb94940852731bd') in 0.010719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordStabGlowRed.png
+  artifactKey: Guid(8516540a463db2345bd2647375f67335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordStabGlowRed.png using Guid(8516540a463db2345bd2647375f67335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cf8e39e882a09d03f2a85bf34ed9c5') in 0.011100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordThrust.png
+  artifactKey: Guid(77bdc7eba4acd674993433283ee46d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordThrust.png using Guid(77bdc7eba4acd674993433283ee46d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b042945653e5eca5c777bb2869659ddd') in 0.011477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicBronzeOneHandSword.png
+  artifactKey: Guid(016e52b3a743c6d4d955c3a8413d7775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicBronzeOneHandSword.png using Guid(016e52b3a743c6d4d955c3a8413d7775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1274ab52cec2d383fb3721e59d88ae92') in 0.013725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordStabGlowCyan.png
+  artifactKey: Guid(8ee743c93c069b5438a729d2fc44f161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordStabGlowCyan.png using Guid(8ee743c93c069b5438a729d2fc44f161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0ea3245623d7bb54cabb39b0a566d1') in 0.018418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicBronzeTwoHandSword.png
+  artifactKey: Guid(800809b4c5d57804287c11973edc0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicBronzeTwoHandSword.png using Guid(800809b4c5d57804287c11973edc0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339fc7b9adee863ccea9e52d832515d5') in 0.016801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicGoldOneHandSword.png
+  artifactKey: Guid(aa19421b1a0eab343b955aca010a51cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicGoldOneHandSword.png using Guid(aa19421b1a0eab343b955aca010a51cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68025e5a3f440c198d99fcd5639dd08a') in 0.017434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordMoon2.png
+  artifactKey: Guid(cf798f0de0642a24794042bda5a6903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordMoon2.png using Guid(cf798f0de0642a24794042bda5a6903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2821e87908e7abe12912c241c6aaafa2') in 0.016623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordsCrossed.png
+  artifactKey: Guid(a5d65c172e80eee40899030885212af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordsCrossed.png using Guid(a5d65c172e80eee40899030885212af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97ed33b3b6683f8e321ddce7bd69471') in 0.014405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordHitGlowYellowBG.png
+  artifactKey: Guid(ee5c7b70c54cfa14fafd7d25ac4ec544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordHitGlowYellowBG.png using Guid(ee5c7b70c54cfa14fafd7d25ac4ec544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb00c1f14e884431dc89a13f440c04f1') in 0.015640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicIronTwoHandSword.png
+  artifactKey: Guid(2e6ed9ab69bc1854da8db23274340fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicIronTwoHandSword.png using Guid(2e6ed9ab69bc1854da8db23274340fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a8ce8afb0c4a4d84a77af48fefc063') in 0.015941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordHitGlowRedBG.png
+  artifactKey: Guid(5d285efc4666593498183ba8964ea96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordHitGlowRedBG.png using Guid(5d285efc4666593498183ba8964ea96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa751649f5662af12c11427e17dba5a') in 0.017294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordStabGlowYellow.png
+  artifactKey: Guid(d179db8f42cdb584e9e481036ff4ca8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordStabGlowYellow.png using Guid(d179db8f42cdb584e9e481036ff4ca8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ee0bf69628517bf061b8c39884a778') in 0.016887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordStabGlowBlue.png
+  artifactKey: Guid(dd00ca3987c797942a5e45df78e50e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilitySwordStabGlowBlue.png using Guid(dd00ca3987c797942a5e45df78e50e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fa92e63c4dcca35ee3fb46c5164c65') in 0.015539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicGoldTwoHandSword.png
+  artifactKey: Guid(aa088b379c076e84f927050084d4e118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicGoldTwoHandSword.png using Guid(aa088b379c076e84f927050084d4e118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb89e4baa9d4bd139c16898b5903231f') in 0.017449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicSilverOneHandSword.png
+  artifactKey: Guid(e14aadd89ff34d84fb4666b376179d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicSilverOneHandSword.png using Guid(e14aadd89ff34d84fb4666b376179d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fc416a4b0297369f5fdbbcb42be912') in 0.015447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.303808 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicSilverTwoHandSword.png
+  artifactKey: Guid(0acf0e13da7612a41a2e4a36bb72da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicSilverTwoHandSword.png using Guid(0acf0e13da7612a41a2e4a36bb72da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dd4a62171f7e39896b70122f276905') in 0.013584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicTwoHandSword.png
+  artifactKey: Guid(63598106fbabc074881acef5aec30954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicTwoHandSword.png using Guid(63598106fbabc074881acef5aec30954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77e996c33812ad78aeb3c97ef5bc5c6') in 0.014462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicSword.png
+  artifactKey: Guid(af8a74c0ea4f5b74781afebff7d60057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/BasicSword.png using Guid(af8a74c0ea4f5b74781afebff7d60057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7884b77ff25f4d4e0b2e9b6be283ba8') in 0.014586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.162368 seconds.
+  path: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Textures/ColorSwatchMetallic.png
+  artifactKey: Guid(e104937c2000db14fa56151dcb709a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Textures/ColorSwatchMetallic.png using Guid(e104937c2000db14fa56151dcb709a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36401ab00c2433e09c1292bd3756598') in 0.018828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/AnyRPG/Core/System/Images/UI/Pixel/PixelSword.png
+  artifactKey: Guid(c01e7fa649a19614eac6a70f9ebedac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/System/Images/UI/Pixel/PixelSword.png using Guid(c01e7fa649a19614eac6a70f9ebedac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aabf9ab9482688e87216f376a6c7018') in 0.013448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AnyRPG/Core/System/Images/UI/BG/UISlotSwordIconBG.png
+  artifactKey: Guid(26d6ef289bd71c14e978845830b08a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/System/Images/UI/BG/UISlotSwordIconBG.png using Guid(26d6ef289bd71c14e978845830b08a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feaf1ba830faf9cf63c99e5a81efa95') in 0.013335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 41.297317 seconds.
+  path: Assets/Screenshots/Elven_Sword_01.png
+  artifactKey: Guid(daef8d080fb14d8468f8b29a6794afce) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Screenshots/Elven_Sword_01.png using Guid(daef8d080fb14d8468f8b29a6794afce) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cc91d38184a0f1afca4892abbc327efe') in 0.016823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.526733 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityBook3GlowYellow.png
+  artifactKey: Guid(2398c8608589b80489fa422acae4ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityBook3GlowYellow.png using Guid(2398c8608589b80489fa422acae4ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65f521b62f88a6ca5705d2231274a0b') in 0.012167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001434 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityEyesYellow.png
+  artifactKey: Guid(5288199675fcb7d49a5adabbf2ec2457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityEyesYellow.png using Guid(5288199675fcb7d49a5adabbf2ec2457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c740371a2c466d303c264872cd91a790') in 0.012993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001571 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityKnifeYellow.png
+  artifactKey: Guid(777cce93cc2ed974e99a117d6a2faf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityKnifeYellow.png using Guid(777cce93cc2ed974e99a117d6a2faf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfd99770f86b4d6a3f863964e1aa1e2') in 0.013603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001384 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityShadowVortexYellow.png
+  artifactKey: Guid(831d68b5f7dbbda48b0a70c35f2a308b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityShadowVortexYellow.png using Guid(831d68b5f7dbbda48b0a70c35f2a308b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434e451f92edb45ed665008e591ffad1') in 0.011285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002394 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityShieldBlockGreen.png
+  artifactKey: Guid(1b4b30e0d14d1b746849f306ea27823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityShieldBlockGreen.png using Guid(1b4b30e0d14d1b746849f306ea27823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4965d0a851adb4e4198867ca62d9d7') in 0.011269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.217578 seconds.
+  path: Assets/UMA/Content/Core/HumanMale/RaceData/BaseThumbs/HumanMaleLegsNone.png
+  artifactKey: Guid(6dfeb8ef7d6d5d8489aaf06f2240e07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/Core/HumanMale/RaceData/BaseThumbs/HumanMaleLegsNone.png using Guid(6dfeb8ef7d6d5d8489aaf06f2240e07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714fcb72b9d4350bb7a3243a2b1ac638') in 0.015508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002263 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Armor/PlateLegsBlue.png
+  artifactKey: Guid(99a6ae723b875464dbc643eb816fde6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Armor/PlateLegsBlue.png using Guid(99a6ae723b875464dbc643eb816fde6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392bfba4dbe98e41ea53b8993924d59b') in 0.011034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002266 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Armor/PlateLegsIron.png
+  artifactKey: Guid(f6f81fdde035b7243802b828dc09a613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Armor/PlateLegsIron.png using Guid(f6f81fdde035b7243802b828dc09a613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a263cfb70896ba9072349315d0a28e7e') in 0.013467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

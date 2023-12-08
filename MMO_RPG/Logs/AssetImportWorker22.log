@@ -1,0 +1,1183 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker22
+-projectPath
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+-logFile
+Logs/AssetImportWorker22.log
+-srvPort
+61834
+Successfully changed project path to: C:/Users/Crazy/GitHubRepo/MMO_RPG
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9464] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 3651219071 [EditorId] 3651219071 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9464] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 3651219071 [EditorId] 3651219071 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Crazy/GitHubRepo/MMO_RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003779 seconds.
+- Loaded All Assemblies, in  0.194 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.139 seconds
+Domain Reload Profiling: 333ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (57ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (106ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.378 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.456 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (358ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4986.
+Memory consumption went from 282.0 MB to 280.7 MB.
+Total: 2.275300 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.793400 ms  DeleteObjects: 0.190400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73535.020224 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fd0b14b94387eb1e8d3c1970518cd7') in 0.065010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 62.323369 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab
+  artifactKey: Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab using Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e032b4050bad0f98b8eb0c3abbe74e61') in 0.012450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 6.428301 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab
+  artifactKey: Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab using Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c6ea401f6a79db86f70d296bb8850d') in 0.009748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 4.016087 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab
+  artifactKey: Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab using Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beaf068e60895dc2cb083315b79ecf24') in 0.012568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 17.250786 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab
+  artifactKey: Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab using Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b03bd0b5f7bc01a445bfe6b094f19d') in 0.010797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 3.820624 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab
+  artifactKey: Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowHandle.prefab using Guid(8cddbe294f9ecbe4095c1e5a076f5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0446e7d350bfa3beec44f81e57754f3') in 0.010551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.240 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 773ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4999.
+Memory consumption went from 266.7 MB to 265.4 MB.
+Total: 2.068400 ms (FindLiveObjects: 0.175100 ms CreateObjectMapping: 0.056300 ms MarkObjects: 1.682100 ms  DeleteObjects: 0.154200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65.060203 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab
+  artifactKey: Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab using Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '64c02a9825116d08e311d2a9202c2d57') in 0.056943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 7.750133 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab
+  artifactKey: Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab using Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '3d55e5eef4ee316242b9b332ff817946') in 0.011553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 2.183517 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab
+  artifactKey: Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab using Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '3135cf46e98b85f04dcb3c22228726bf') in 0.008668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 3.420048 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab
+  artifactKey: Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab using Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '5a80909ee183b21344797d555c629556') in 0.011035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 5.745723 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab
+  artifactKey: Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab using Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '476c6d2c219dc6f7a814c9be901f13d1') in 0.010463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 23.642321 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab
+  artifactKey: Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab using Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a05b82cad397901971feef4aed03416') in 0.005952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 2.804486 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab
+  artifactKey: Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab using Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae367b2337616f40f75f498111797c45') in 0.006284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 11.713774 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab
+  artifactKey: Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab using Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869039d686a45b56354d0bd1434aadbc') in 0.010190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 2.610983 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab
+  artifactKey: Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab using Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbee4b3e72e65d99bfc5673accac2fbb') in 0.011411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 23.894602 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab
+  artifactKey: Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab using Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1134189cc1307a2426128dcb912328b3') in 0.010717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 32.094481 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab
+  artifactKey: Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab using Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a37f0b7ffe840a8c706854ad7ed3d39') in 0.006599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 3.605314 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab
+  artifactKey: Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab using Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23464ea756272da6c60bfc7e8025d645') in 0.009404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 10.244990 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab
+  artifactKey: Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab using Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d1f7be77ba2a4a71aff4f23915082c') in 0.008131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 7.262010 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab
+  artifactKey: Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab using Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8ebb6824b1b5372cade18c5bebfaf2') in 0.011109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 3.811580 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab
+  artifactKey: Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab using Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef598d7f38d614b31e39744d8bcbfb41') in 0.011899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 5.809334 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab
+  artifactKey: Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab using Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b590927cfd33ea303395c3df8bc013') in 0.011143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 6.032138 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab
+  artifactKey: Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab using Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22ca352d3683591b9c3986903095283') in 0.011522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 22.079629 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2114cd35b0d041f1b898352f3328a0d0') in 0.010975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 1.793930 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21280df77667ed550d82e96784d79431') in 0.010630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 2.420635 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332b615d7008798f2fbd26d7636b9646') in 0.011490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 2.408422 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad7da97a71585446ec8accb60d7ed6c') in 0.009214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.587732 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4383836b9b079cd804ef7a8f6de2f0') in 0.010129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 3.007149 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb39bc2e08715df63ac0ed12357f3429') in 0.005386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 1.613773 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddecf2cff49758e545fd8fa06bb5091') in 0.009312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 2.606248 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b9d3ff425bd40e0ff36c75f0e41d60') in 0.010647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 3.617459 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3511d9a0170405f589eb36862c85c0') in 0.008968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 1.404886 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4365a3fd7152a99d2b059e0392729ecb') in 0.011644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 1.600802 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfa380bc6f9c3972ebee772ac69bab8') in 0.008797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 1.802841 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72453f9fae4dd4e648e6ba7486e0d03b') in 0.010878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 2.397345 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f260a77141066509d15a74bb211d4cdc') in 0.011279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 1.806679 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4794bb42f9b43394754ce7ee27ffea') in 0.011849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 29.435222 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8da6b606c222d5e7976324b6bb496c2') in 0.008750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.267 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 777ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (512ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4482 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 5054.
+Memory consumption went from 269.2 MB to 267.9 MB.
+Total: 3.751000 ms (FindLiveObjects: 0.364900 ms CreateObjectMapping: 0.145200 ms MarkObjects: 2.950700 ms  DeleteObjects: 0.286900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 289.139932 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png
+  artifactKey: Guid(d440902fad11e807d00044888d76c639) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png using Guid(d440902fad11e807d00044888d76c639) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f7ef5aec58b8862d29532412a080d50a') in 0.023753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NatureStarterKit2/Textures/bark02.tga
+  artifactKey: Guid(cd130f36a968f1e4d8dfc96a655a9c32) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/bark02.tga using Guid(cd130f36a968f1e4d8dfc96a655a9c32) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8375afd82f74df26e819021ddb2ea336') in 0.019897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush05_Textures/diffuse.png
+  artifactKey: Guid(99594b157f839144d8c0e173b04dc37a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush05_Textures/diffuse.png using Guid(99594b157f839144d8c0e173b04dc37a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ae7de1fc1dce3b614ed7f45100e6c068') in 0.051527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/NatureStarterKit2/Textures/ground01.psd
+  artifactKey: Guid(85cdb49f460bbf14a82b8ea1c20c07bc) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/ground01.psd using Guid(85cdb49f460bbf14a82b8ea1c20c07bc) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '579c63d2e00f4a16b9e5d19bc9668fa1') in 0.142375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif
+  artifactKey: Guid(8caa437b19957a045866b84c6218a0db) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif using Guid(8caa437b19957a045866b84c6218a0db) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ab81dfb6ac8c8acef3e4d72808f6e2e1') in 0.019715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png
+  artifactKey: Guid(17da6d53ec93a0444bd0f751b1d02477) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png using Guid(17da6d53ec93a0444bd0f751b1d02477) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '61043c9dd76be5c7767160c260555e65') in 0.009974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif
+  artifactKey: Guid(19555d7d9d114c7f1100f5ab44295342) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif using Guid(19555d7d9d114c7f1100f5ab44295342) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1edc701103d8ef1a96044d04be436db0') in 0.006454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png
+  artifactKey: Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png using Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5d6b0dcb2d525fcba76ff894e5b8d209') in 0.005444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree01_Textures/normal_specular.png
+  artifactKey: Guid(8c09b7803cd35a7439d17c6f8c1afe76) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree01_Textures/normal_specular.png using Guid(8c09b7803cd35a7439d17c6f8c1afe76) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2e19f09f9594c926427f48666a7e7473') in 0.031661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png
+  artifactKey: Guid(ecd9a2c463dcb476891e43d7c9f16ffa) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png using Guid(ecd9a2c463dcb476891e43d7c9f16ffa) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '31d1cfafca99a24724f2fea67426d98c') in 0.017375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04_Textures/diffuse.png
+  artifactKey: Guid(1bc291dddd73b3546b8d909b1c407553) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/diffuse.png using Guid(1bc291dddd73b3546b8d909b1c407553) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5dd9bb5f015d60b5c5534eec5ba1c52a') in 0.024254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd
+  artifactKey: Guid(69680b688d11eb9d30009b3b4241aa39) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd using Guid(69680b688d11eb9d30009b3b4241aa39) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '307094d535f9c5529725754cf4191d6c') in 0.011118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/NatureStarterKit2/Textures/ground01.tga
+  artifactKey: Guid(ffbc4ff073065254585f69e966389160) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/ground01.tga using Guid(ffbc4ff073065254585f69e966389160) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '70bbe8e6a4cce604eaaf8c71211395c2') in 0.077774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png
+  artifactKey: Guid(31f5a8611c4ed1245b18456206e798dc) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png using Guid(31f5a8611c4ed1245b18456206e798dc) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '321997c6f397abc1c658cd3b0019379d') in 0.005030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/NatureStarterKit2/Textures/branch01.tga
+  artifactKey: Guid(9dd29b2fd426d81459d6020818e420ac) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/branch01.tga using Guid(9dd29b2fd426d81459d6020818e420ac) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '21a12e0d12377dbb1c59859f2d88e717') in 0.051339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Textures/UtilToonGradient.png
+  artifactKey: Guid(4a056241e2722dc46a7262a8e7073fd9) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Textures/UtilToonGradient.png using Guid(4a056241e2722dc46a7262a8e7073fd9) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '66e0c08e9af76f45a29a5a13f06da18f') in 0.015137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/NatureStarterKit2/Textures/grass02.tga
+  artifactKey: Guid(e3f873c56651ccd4a83ab80769dd19f3) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/grass02.tga using Guid(e3f873c56651ccd4a83ab80769dd19f3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9827d7ef56706b63fbf0f8f1a0d8a24d') in 0.013249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png
+  artifactKey: Guid(e08c295755c0885479ad19f518286ff2) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png using Guid(e08c295755c0885479ad19f518286ff2) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ed16e7bdbbc91c0a439d3f8d680215aa') in 0.013662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree04_Textures/translucency_gloss.png
+  artifactKey: Guid(867a9bb6289eac041a67ad5218a3307e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree04_Textures/translucency_gloss.png using Guid(867a9bb6289eac041a67ad5218a3307e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8d12bd35bba2c4b51084ceb319613552') in 0.015662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04_Textures/translucency_gloss.png
+  artifactKey: Guid(f8d43e186daf2bc49a80785d236cb157) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/translucency_gloss.png using Guid(f8d43e186daf2bc49a80785d236cb157) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a9b14f244c7b1df5331f1eed3106ea2b') in 0.014831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png
+  artifactKey: Guid(a181ca8e3c62f3e4b8f183f6c586b032) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png using Guid(a181ca8e3c62f3e4b8f183f6c586b032) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '74505cfe96a9b7d6ccb8785102123c88') in 0.005974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightIrregularCookie.tif
+  artifactKey: Guid(641bb2dce818a8a499b537a1963889ac) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightIrregularCookie.tif using Guid(641bb2dce818a8a499b537a1963889ac) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cdf25bdec3b28b366749b9215837e138') in 0.010328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush02_Textures/translucency_gloss.png
+  artifactKey: Guid(55c6ac3e6f8270d469c6046696f009db) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush02_Textures/translucency_gloss.png using Guid(55c6ac3e6f8270d469c6046696f009db) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '596aa46af8df8758b1d6ffd2c0f33b9d') in 0.013638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png
+  artifactKey: Guid(6205c27cc031f4e66b8ea90d1bfaa158) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png using Guid(6205c27cc031f4e66b8ea90d1bfaa158) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6223f25afa0a62e3f6410f289645d54a') in 0.009953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush05_Textures/translucency_gloss.png
+  artifactKey: Guid(6471761cd0be04a48ab5c5b0598c426d) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush05_Textures/translucency_gloss.png using Guid(6471761cd0be04a48ab5c5b0598c426d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e7bed309c55c68cd3e669b16a8ccbe45') in 0.017301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree03_Textures/shadow.png
+  artifactKey: Guid(fa29af801d4654e469207cffeea8e8cf) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree03_Textures/shadow.png using Guid(fa29af801d4654e469207cffeea8e8cf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd9dfec28b8c7e32b4a6883df0ec3d56c') in 0.018859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/NatureStarterKit2/Textures/bark01.tga
+  artifactKey: Guid(0b851eea454bcc74ebf763a1e97d7c2f) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/bark01.tga using Guid(0b851eea454bcc74ebf763a1e97d7c2f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7a7117f0700dde4f3bd2fdc8c7b6b1b1') in 0.016220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush01_Textures/normal_specular.png
+  artifactKey: Guid(c0ff824bc7611d6448b7231d21ecb58d) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush01_Textures/normal_specular.png using Guid(c0ff824bc7611d6448b7231d21ecb58d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '43842f9c2717e8929d9c8b997318324e') in 0.020873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Grid.psd
+  artifactKey: Guid(529239097d02f9f42b0ddd436c6fcbb0) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Grid.psd using Guid(529239097d02f9f42b0ddd436c6fcbb0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c11a5aeb5650c4de29b55a8691a008b3') in 0.009870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd
+  artifactKey: Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd using Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ebe3cec6a7e4d7193eb7b34945a4fc54') in 0.013042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/NatureStarterKit2/Textures/grass01.tga
+  artifactKey: Guid(18023b893dedc2f41b2735582b22036c) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/grass01.tga using Guid(18023b893dedc2f41b2735582b22036c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '380004dfa9eec8185dc0677a88d5276e') in 0.020192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush02_Textures/diffuse.png
+  artifactKey: Guid(4fde83dbcc90ddf4496b7d4b4a533032) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush02_Textures/diffuse.png using Guid(4fde83dbcc90ddf4496b7d4b4a533032) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'eb3ccbf176782622067d9373be724771') in 0.030886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush03_Textures/diffuse.png
+  artifactKey: Guid(bafd27072aee8654485c538f80de7dd8) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush03_Textures/diffuse.png using Guid(bafd27072aee8654485c538f80de7dd8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '23203552c1fe5ae0471d3528c637370e') in 0.029736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd
+  artifactKey: Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd using Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e0176aed252307be86ad70409081bc74') in 0.018133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif
+  artifactKey: Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif using Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5968bf0a0d304468679d59e85d8d3129') in 0.012776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree03_Textures/translucency_gloss.png
+  artifactKey: Guid(e08b6027d32f103499d413e4141bfcf3) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree03_Textures/translucency_gloss.png using Guid(e08b6027d32f103499d413e4141bfcf3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '18b2a05c95930aa51a57621bb7522046') in 0.023379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush03_Textures/translucency_gloss.png
+  artifactKey: Guid(5aa3e304ca031934dab7713a359e61c0) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush03_Textures/translucency_gloss.png using Guid(5aa3e304ca031934dab7713a359e61c0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7d946c5557f6a9205c4579d66c9a2766') in 0.023158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree01_Textures/translucency_gloss.png
+  artifactKey: Guid(853d85e6df42bb346a907893af921d1e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree01_Textures/translucency_gloss.png using Guid(853d85e6df42bb346a907893af921d1e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '754e0bbcfd50a835d01414ad608e18aa') in 0.022381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush02_Textures/shadow.png
+  artifactKey: Guid(acac49e6c49c1da4d91b3702823fe4cf) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush02_Textures/shadow.png using Guid(acac49e6c49c1da4d91b3702823fe4cf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd44d181f406b47408da78610dbccfbbf') in 0.021397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree04_Textures/diffuse.png
+  artifactKey: Guid(2358a0d0a1cf20d4ea0018c742bd06e4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree04_Textures/diffuse.png using Guid(2358a0d0a1cf20d4ea0018c742bd06e4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '972e5526755df83e91ac9fe5da93f2d7') in 0.035997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Textures/ToonLit.psd
+  artifactKey: Guid(b995d4bd9d11078d11005b9844295342) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Textures/ToonLit.psd using Guid(b995d4bd9d11078d11005b9844295342) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '24b98ac7bf25d8be7f2cd6a46d5dd0ee') in 0.012294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree02_Textures/normal_specular.png
+  artifactKey: Guid(ae561c4b1e740354fb9a2b30b2ff4dac) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/tree02_Textures/normal_specular.png using Guid(ae561c4b1e740354fb9a2b30b2ff4dac) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2b196f4bffebb2f0d77caaba80a2c464') in 0.019180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/NatureStarterKit2/Textures/ground02.tga
+  artifactKey: Guid(3e8f839d23c8c7f42b81fc76f0dbeb9f) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Textures/ground02.tga using Guid(3e8f839d23c8c7f42b81fc76f0dbeb9f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e50b38ee3ada36b13ce29cdc421b0df7') in 0.089145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush01_Textures/shadow.png
+  artifactKey: Guid(601b2261c9f9ef0438b1966de0080c95) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush01_Textures/shadow.png using Guid(601b2261c9f9ef0438b1966de0080c95) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6bc19709aa62ae50f839747aed377b00') in 0.017792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush05_Textures/normal_specular.png
+  artifactKey: Guid(ca8eb19e8e565a64fb8f2f4c2d9f9297) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Nature/bush05_Textures/normal_specular.png using Guid(ca8eb19e8e565a64fb8f2f4c2d9f9297) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cf99bde81f9cc633c84074d8bebb8ea7') in 0.018723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.049166 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx
+  artifactKey: Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx using Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'aebbf63d5200a3875ba516bd3a8ba2d5') in 0.016948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.012460 seconds.
+  path: Assets/Spider Green/Spider_texture/texture_diffuse.png
+  artifactKey: Guid(d54280bc64c249e49811bcb80f687fb7) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Spider Green/Spider_texture/texture_diffuse.png using Guid(d54280bc64c249e49811bcb80f687fb7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '04a82a81a915218bf5170606e1981769') in 0.031109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013736 seconds.
+  path: Assets/Spider Green/Spider_model/SPIDER.fbx
+  artifactKey: Guid(130cac6b96af6214296215324b5da188) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Spider Green/Spider_model/SPIDER.fbx using Guid(130cac6b96af6214296215324b5da188) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 81.638733%;
+Keyframe reduction: Ratio: 79.676544%;
+Keyframe reduction: Ratio: 80.485176%;
+Keyframe reduction: Ratio: 14.544028%;
+Keyframe reduction: Ratio: 73.542976%;
+Keyframe reduction: Ratio: 87.162415%;
+Keyframe reduction: Ratio: 71.399368%;
+ -> (artifact id: 'af6b6766d6eb254a85af19633a5d5162') in 0.256819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 44.463859 seconds.
+  path: Assets/NatureStarterKit2/Materials/bark01.mat
+  artifactKey: Guid(429dd90a38598a6439cac85af03f10df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/bark01.mat using Guid(429dd90a38598a6439cac85af03f10df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26fa6d5d4e5a4432be92952c2f47421') in 0.177604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NatureStarterKit2/Materials/bush01.mat
+  artifactKey: Guid(216a7e882dab7d745a4fc6ccb3774f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/bush01.mat using Guid(216a7e882dab7d745a4fc6ccb3774f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fa4c4c2b6c3f679a078f50498ff204') in 0.106441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush06.prefab
+  artifactKey: Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush06.prefab using Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcb0d89dfbe16b08f706c277496a591') in 0.266120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NatureStarterKit2/Scene/SecondaryTerrain.asset
+  artifactKey: Guid(7f570b916f436aa4c9d4676e57349fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Scene/SecondaryTerrain.asset using Guid(7f570b916f436aa4c9d4676e57349fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3501b6e9a0c88af36d9ea03f30d6112') in 0.040153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree02.prefab
+  artifactKey: Guid(c63ea781a273235439e583799176c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/tree02.prefab using Guid(c63ea781a273235439e583799176c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7058f90755b56ea78e4d28089701706d') in 0.018902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree03.prefab
+  artifactKey: Guid(4e2dd32c733005a44b50004d673dc653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/tree03.prefab using Guid(4e2dd32c733005a44b50004d673dc653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc215f84ca9e45288225cb4e50d6b2b') in 0.019413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NatureStarterKit2/Materials/branch02.mat
+  artifactKey: Guid(a907919643f983d49835ca9a994e37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/branch02.mat using Guid(a907919643f983d49835ca9a994e37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d0e78f98febedb8117a47d29a1d266') in 0.009854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/NatureStarterKit2/Materials/skybox.mat
+  artifactKey: Guid(39cace2863926444a9a78daa8ae26413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/skybox.mat using Guid(39cace2863926444a9a78daa8ae26413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44df48b5f2c7dd599e66f565b71fc952') in 0.011660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush03.prefab
+  artifactKey: Guid(9c74caa742791864f9c678287121e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush03.prefab using Guid(9c74caa742791864f9c678287121e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e143f70b8da4ac6276abbc3cfc4a26') in 0.018823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush02.prefab
+  artifactKey: Guid(ec78ebca7517fb745a45a931cb06d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush02.prefab using Guid(ec78ebca7517fb745a45a931cb06d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdf44bfcff525c5a091c6360c870f7f') in 0.019577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04.prefab
+  artifactKey: Guid(d15b44addf30da74f946086ec0aa993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush04.prefab using Guid(d15b44addf30da74f946086ec0aa993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ec6b139e9aad5e4411ad656972f6a9') in 0.018666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.282 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling: 888ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (7ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (607ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.3 MB). Loaded Objects now: 5063.
+Memory consumption went from 272.2 MB to 270.9 MB.
+Total: 2.803100 ms (FindLiveObjects: 0.323600 ms CreateObjectMapping: 0.117300 ms MarkObjects: 2.077800 ms  DeleteObjects: 0.283100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

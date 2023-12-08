@@ -1,0 +1,287 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+61834
+Successfully changed project path to: C:/Users/Crazy/GitHubRepo/MMO_RPG
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13872] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 564012774 [EditorId] 564012774 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13872] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 564012774 [EditorId] 564012774 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Crazy/GitHubRepo/MMO_RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003658 seconds.
+- Loaded All Assemblies, in  0.195 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.136 seconds
+Domain Reload Profiling: 331ms
+	BeginReloadAssembly (57ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (56ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (137ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (104ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.351 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling: 824ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4985.
+Memory consumption went from 281.7 MB to 280.4 MB.
+Total: 2.874200 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.109500 ms MarkObjects: 2.095800 ms  DeleteObjects: 0.322800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72827.728724 seconds.
+  path: Assets/Elven_assassin/Textures/texture_body/Rina_body_diffuse_PNG.png
+  artifactKey: Guid(512aa00d6f4cd4541b91bf7a933eaa5e) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Elven_assassin/Textures/texture_body/Rina_body_diffuse_PNG.png using Guid(512aa00d6f4cd4541b91bf7a933eaa5e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6b1394cdf1085995f8bc8aad0d075d9f') in 0.097837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Elven_assassin/Textures/texture_face/Rina_face_diffuse_PNG.png
+  artifactKey: Guid(ef483775bfaebcd44a012353dba69842) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Elven_assassin/Textures/texture_face/Rina_face_diffuse_PNG.png using Guid(ef483775bfaebcd44a012353dba69842) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '486329b56dcd1f433275457762274388') in 0.118946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Elven_assassin/Textures/platform/normal.png
+  artifactKey: Guid(ce996dd8b0216164183a259b05df590d) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Elven_assassin/Textures/platform/normal.png using Guid(ce996dd8b0216164183a259b05df590d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '034a9fcaccaf0002c7acd3a1b008ceea') in 0.015735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Elven_assassin/Textures/texture_face/Rina_face_metallic_PNG.png
+  artifactKey: Guid(54c70f536ec317a4e8c5f56b0a7eaae5) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Elven_assassin/Textures/texture_face/Rina_face_metallic_PNG.png using Guid(54c70f536ec317a4e8c5f56b0a7eaae5) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6e9d6c9f6b4b7328300e055a6f6ea849') in 0.060262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Elven_assassin/Textures/texture_hair/Rina_hair_normal_PNG.png
+  artifactKey: Guid(18d48d1ae161efb49b5a7028bf3dcd73) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Elven_assassin/Textures/texture_hair/Rina_hair_normal_PNG.png using Guid(18d48d1ae161efb49b5a7028bf3dcd73) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'bca2d7eec86a2b284c32466f9f6427d9') in 0.063218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Elven_assassin/Textures/platform/stone.jpg
+  artifactKey: Guid(0433de3791c896b408f950a11c52baf0) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Elven_assassin/Textures/platform/stone.jpg using Guid(0433de3791c896b408f950a11c52baf0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f128096103bf4d538a47861c87f5dddf') in 0.007942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028414 seconds.
+  path: Assets/Elven_assassin/Models/elf_1.2.fbx
+  artifactKey: Guid(40e7efed185f03447801a73cf0ef2128) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Elven_assassin/Models/elf_1.2.fbx using Guid(40e7efed185f03447801a73cf0ef2128) Importer(-1,00000000000000000000000000000000) Launched and connected uv unwrapper C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/UnwrapCL.exe after 0.06 seconds
+Keyframe reduction: Ratio: 100.000000%;
+ImportFBX Warnings:
+Can't import tangents and binormals, because mesh 'face' doesn't have any.
+Mesh 'face' has 18 (out of 3384) vertices with no weight and bone assigned (they will be assigned to bone #0 with weight 1). The list of vertices: 4, 5, 7, 25, 27, 55, 56, 83, 84, 160 and so on...
+ -> (artifact id: '9205e7f2459fc9799b0b26244bcb9904') in 0.533367 seconds
+  ERROR: Import of 'Assets/Elven_assassin/Models/elf_1.2.fbx' had errors: ImportFBX Warnings:
+Can't import tangents and binormals, because mesh 'face' doesn't have any.
+Mesh 'face' has 18 (out of 3384) vertices with no weight and bone assigned (they will be assigned to bone #0 with weight 1). The list of vertices: 4, 5, 7, 25, 27, 55, 56, 83, 84, 160 and so on...
+
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.457966 seconds.
+  path: Assets/Elven_assassin/Models/platform.FBX
+  artifactKey: Guid(63e57e712490c074ab3361cf4aa29b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven_assassin/Models/platform.FBX using Guid(63e57e712490c074ab3361cf4aa29b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cfc7f6a66b93218703fdcd775ba228') in 0.089246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 24.612724 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Axe_01.prefab
+  artifactKey: Guid(2ea44036c2b391e41a46533ebe5ab589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Axe_01.prefab using Guid(2ea44036c2b391e41a46533ebe5ab589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4715d9be996b717ce6e27b1769da3e40') in 0.107242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Spear_01.prefab
+  artifactKey: Guid(607d3fb159352ec4aabd383c218e3e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Spear_01.prefab using Guid(607d3fb159352ec4aabd383c218e3e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18a4e8856d584f274c22101876782c9') in 0.010466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Staff_01.prefab
+  artifactKey: Guid(758e12dc751c3974f9ea828b826a0894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Staff_01.prefab using Guid(758e12dc751c3974f9ea828b826a0894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0bda96ae498eee93779cbd265fabbc') in 0.010640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

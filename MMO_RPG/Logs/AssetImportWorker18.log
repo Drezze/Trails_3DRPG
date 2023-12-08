@@ -1,0 +1,399 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker18
+-projectPath
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+-logFile
+Logs/AssetImportWorker18.log
+-srvPort
+61834
+Successfully changed project path to: C:/Users/Crazy/GitHubRepo/MMO_RPG
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14828] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 1426577721 [EditorId] 1426577721 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14828] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 1426577721 [EditorId] 1426577721 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Crazy/GitHubRepo/MMO_RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003386 seconds.
+- Loaded All Assemblies, in  0.191 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.142 seconds
+Domain Reload Profiling: 333ms
+	BeginReloadAssembly (57ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (78ms)
+		LoadAssemblies (56ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (68ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (142ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (109ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.361 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 820ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (356ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4986.
+Memory consumption went from 282.0 MB to 280.7 MB.
+Total: 3.090500 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.187700 ms MarkObjects: 2.412100 ms  DeleteObjects: 0.244500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72989.545922 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/MedievalOneHandSword.png
+  artifactKey: Guid(f4b294e0ffa0a604eafb14f47689faee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Weapon/Sword/MedievalOneHandSword.png using Guid(f4b294e0ffa0a604eafb14f47689faee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090736249b8830132bb2b1beb9998ffb') in 0.067687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 63.823628 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityDropYellow.png
+  artifactKey: Guid(f4cf682139bbf6541837e40876c0c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityDropYellow.png using Guid(f4cf682139bbf6541837e40876c0c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e34ba42455dd9d4efa21dc1968e7b2') in 0.014408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005627 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityLeafsYellow.png
+  artifactKey: Guid(28d53e5cb2cd3744f949033ecc413657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityLeafsYellow.png using Guid(28d53e5cb2cd3744f949033ecc413657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ac2b74121521344bc8d771d05b7937') in 0.012685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005661 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityShardsYellow.png
+  artifactKey: Guid(a55284cd91ca0c24092377cf63c30d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityShardsYellow.png using Guid(a55284cd91ca0c24092377cf63c30d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabe8014de5d72c12daa8510051bfe38') in 0.011064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002375 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityShieldBlockViolet.png
+  artifactKey: Guid(4475731a28a9b9a45bc9352e4be9ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Ability/AbilityShieldBlockViolet.png using Guid(4475731a28a9b9a45bc9352e4be9ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbc4f5ccdd480796462c117941b8211') in 0.011169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.238869 seconds.
+  path: Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Armor/PlateLegsGold.png
+  artifactKey: Guid(fd549d479f4934e4db7b498ffe0e1015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnyRPG/Core/Content/Images/Icons/Equipment/Armor/PlateLegsGold.png using Guid(fd549d479f4934e4db7b498ffe0e1015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9f56d69b20687f816b1eeafa0ce327') in 0.012349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002672 seconds.
+  path: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Textures/selectedSpot.png
+  artifactKey: Guid(db9064d82d375d14296c3df68857570b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Textures/selectedSpot.png using Guid(db9064d82d375d14296c3df68857570b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e50b9963f9989e6bc9afe2752e442e5') in 0.014648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 88.997413 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab
+  artifactKey: Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab using Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29010f1a8e34b5668ba295b2cb58dc7f') in 0.030506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.576408 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab
+  artifactKey: Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab using Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ad086d41a0de911a19f2fa1737e343') in 0.014196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.806194 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab
+  artifactKey: Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab using Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786bcc9f698959f0ee7b9628a166da50') in 0.010690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 8.657283 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab
+  artifactKey: Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab using Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ecb6f47dad23cd795ea3aaf7f06087') in 0.008837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 7.224783 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab
+  artifactKey: Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab using Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30e6fa4ab6aa34ce886bf884ade896b') in 0.010141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 24.006302 seconds.
+  path: Assets/Screenshots/default.png
+  artifactKey: Guid(fecc7dbc305e3694c9fa00ee25d97918) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Screenshots/default.png using Guid(fecc7dbc305e3694c9fa00ee25d97918) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a8d0032f8e623775b11dd0ff0725a410') in 0.013425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 275.483511 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab
+  artifactKey: Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/Elven_Sword_01Handle.prefab using Guid(2b1898e60387a9344afe30899608b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac092d3044fa8dd87409b15c6378f2c') in 0.023892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab
+  artifactKey: Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab using Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a91a07db18027325f01ae7922efa9e8') in 0.009879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab
+  artifactKey: Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab using Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd806c4ef211ed9cd0e0d8bd1032836cf') in 0.009916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab
+  artifactKey: Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenArrowProjectile.prefab using Guid(7b8dd4c4554cd6a43bda686a2f42e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '8bd94a4b1932a5b1b521c739414ff9e5') in 0.008813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 60.015668 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Arrow_02.prefab
+  artifactKey: Guid(489019b5a17792d4da216ddedd5813a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Arrow_02.prefab using Guid(489019b5a17792d4da216ddedd5813a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a78ee08f154d05ba6c234e3b686b44') in 0.005868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.002620 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Axe_01.prefab
+  artifactKey: Guid(2ea44036c2b391e41a46533ebe5ab589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Axe_01.prefab using Guid(2ea44036c2b391e41a46533ebe5ab589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad17b570b7590aac6d76f6f5244c9fb') in 0.004860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab
+  artifactKey: Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab using Guid(07acc578b7472d341b1598054a804d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5f7906b2af34f4dd1a3f85d1c640f3') in 0.004376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Shield_01.prefab
+  artifactKey: Guid(aa1cdb3fa5b9d7840a8b668185260761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Shield_01.prefab using Guid(aa1cdb3fa5b9d7840a8b668185260761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd356aa862cb4dce0da4b5e7a85bfe01f') in 0.005234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.002223 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Spear_01.prefab
+  artifactKey: Guid(607d3fb159352ec4aabd383c218e3e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Spear_01.prefab using Guid(607d3fb159352ec4aabd383c218e3e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f639d80928e17301b78c68087cb77714') in 0.005915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Staff_01.prefab
+  artifactKey: Guid(758e12dc751c3974f9ea828b826a0894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Staff_01.prefab using Guid(758e12dc751c3974f9ea828b826a0894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5bdaf1d012c3543049bd52bb1abd46') in 0.009970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Elven Weapons/Prefabs/Elven_Bow_01.prefab
+  artifactKey: Guid(f307e862b0d4a6d4f81b57e34ae86704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Weapons/Prefabs/Elven_Bow_01.prefab using Guid(f307e862b0d4a6d4f81b57e34ae86704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1667d3fc10bd58ac252d85970f40b3c5') in 0.005377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 11.265478 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab
+  artifactKey: Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenBowHandle.prefab using Guid(e1b5ba25726b3114bb60fa260bc28f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956d96f4c69f37444ec820b88b59e7b1') in 0.006519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab
+  artifactKey: Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/Trailblazer/Prefab/Handle/Weapon/ElvenShieldHandle.prefab using Guid(4a759012deac8f04e9c5f258a7b79a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e94483d07bb9627599c0653d732dd4d') in 0.006021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,360 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+61834
+Successfully changed project path to: C:/Users/Crazy/GitHubRepo/MMO_RPG
+C:/Users/Crazy/GitHubRepo/MMO_RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13772] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 785360336 [EditorId] 785360336 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13772] Host "[IP] 192.168.254.38 [Port] 0 [Flags] 2 [Guid] 785360336 [EditorId] 785360336 [Version] 1048832 [Id] WindowsEditor(7,Bailey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 4.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Crazy/GitHubRepo/MMO_RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003879 seconds.
+- Loaded All Assemblies, in  0.238 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.165 seconds
+Domain Reload Profiling: 402ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (69ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (166ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (121ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.558 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 1125ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (1.7 MB). Loaded Objects now: 4959.
+Memory consumption went from 210.8 MB to 209.0 MB.
+Total: 3.286000 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.497600 ms  DeleteObjects: 0.431300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71373.962548 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_dead.fbx
+  artifactKey: Guid(0101712be5ca1c7449afe15d548c8817) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_dead.fbx using Guid(0101712be5ca1c7449afe15d548c8817) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd5c3728cf5cf9677386969e89879d6a0') in 0.037486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green_cut.fbx
+  artifactKey: Guid(1500a5535a073af4797d5ba960824cb3) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green_cut.fbx using Guid(1500a5535a073af4797d5ba960824cb3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '402de27da39811a1cd80480dee0e9abe') in 0.016775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx
+  artifactKey: Guid(06585c4a497d08f4591a54ccfdb05bcf) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx using Guid(06585c4a497d08f4591a54ccfdb05bcf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'fe7683a8e14a05a7ebc11f9864b24405') in 0.017756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_05 1.fbx
+  artifactKey: Guid(b0a55ec4196e89646866778d4a9990bd) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_05 1.fbx using Guid(b0a55ec4196e89646866778d4a9990bd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'bd9fd46e7bd406b7402ed0b9dee3fedb') in 0.014163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_02.fbx
+  artifactKey: Guid(b67d2b761d3397348831d776dbb33e03) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_02.fbx using Guid(b67d2b761d3397348831d776dbb33e03) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7503c7b9e012b3d387fe92c9af4aee03') in 0.011320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_green.fbx
+  artifactKey: Guid(cc43ed905f6a9d24a86d3eb531265e85) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_green.fbx using Guid(cc43ed905f6a9d24a86d3eb531265e85) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'bd78f9d38d581167f7158dc2fcb54967') in 0.014657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 36.959007 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Tapistry_1A.png
+  artifactKey: Guid(c6021c896a3fd964ca46315bffc7c212) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Tapistry_1A.png using Guid(c6021c896a3fd964ca46315bffc7c212) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6f69e955ae8805be1a0d539cad2d8563') in 0.032106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Normal_Maps/Groundplants_1A(Bump).jpg
+  artifactKey: Guid(b901ab94cd3cb2949a87a7b2df651d9c) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Normal_Maps/Groundplants_1A(Bump).jpg using Guid(b901ab94cd3cb2949a87a7b2df651d9c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0a933e530ac654a8796a6a314a3cc938') in 0.019627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Leaves_Group_1B2.png
+  artifactKey: Guid(6153502af952abd4d81b608f35437ef7) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Leaves_Group_1B2.png using Guid(6153502af952abd4d81b608f35437ef7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1fe26c435fb8db986b6403e0f18b3cfe') in 0.017282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Normal_Maps/Bark_2(Bump).png
+  artifactKey: Guid(69ee29b28b799a2479b0afa160f7adf1) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Normal_Maps/Bark_2(Bump).png using Guid(69ee29b28b799a2479b0afa160f7adf1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c72866fd4c587da1a224788ea36286a8') in 0.016099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Terrain/Groundplants_1A Normal.jpg
+  artifactKey: Guid(bf4e933035336264d993469b0c044383) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Terrain/Groundplants_1A Normal.jpg using Guid(bf4e933035336264d993469b0c044383) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1b70850b2a9d59055dac42ed12d73c51') in 0.020247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Castle_Map_1A Occlusion.png
+  artifactKey: Guid(12562eb8502b7e44aa6458afc241e9d4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Castle_Map_1A Occlusion.png using Guid(12562eb8502b7e44aa6458afc241e9d4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '17342bb2f2f58244a40eb311d80b3215') in 0.061918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Castle_Detail_Map_1A Occlusion.png
+  artifactKey: Guid(05e6314214a7055468b099d02fc07ef5) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Castle_Detail_Map_1A Occlusion.png using Guid(05e6314214a7055468b099d02fc07ef5) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6d272247d6e5e38b5320a2427dca4aec') in 0.059805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000801 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Bark_3 Occlusion.png
+  artifactKey: Guid(579985922f557b241bdc28596404f4c4) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Bark_3 Occlusion.png using Guid(579985922f557b241bdc28596404f4c4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e2bacc19ecf53ee67841dbebf21fd047') in 0.023463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Camp_Supply_1A.png
+  artifactKey: Guid(c3ff36a40a711b449b8e79a3307e4c2d) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Camp_Supply_1A.png using Guid(c3ff36a40a711b449b8e79a3307e4c2d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1f85d23471bef738b7de883d23457a35') in 0.030429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Terrain/Ground_1A.png
+  artifactKey: Guid(a52096b772f376d42b04a1554fbe5128) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Terrain/Ground_1A.png using Guid(a52096b772f376d42b04a1554fbe5128) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ac1899e09524a28b9fc642a598fd29c7') in 0.029524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/UF Creator LITE/Textures/Textures/Tapistry_1A(Bump).png
+  artifactKey: Guid(1cfb3353bb9d8684f8edf49cdbbb27e3) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Textures/Tapistry_1A(Bump).png using Guid(1cfb3353bb9d8684f8edf49cdbbb27e3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'fac1f7658de9d0605b8e2f60c0dfb73a') in 0.043221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UF Creator LITE/Textures/Tree_and_Bark_Map_1A(Occ).png
+  artifactKey: Guid(bc7bb062f49a2c54bab4c961a88946c7) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/Textures/Tree_and_Bark_Map_1A(Occ).png using Guid(bc7bb062f49a2c54bab4c961a88946c7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5d8aecfd217ff1f9a77596b088f6d1fb') in 0.034974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.112498 seconds.
+  path: Assets/UF Creator LITE/FBX/Tapistry_1A(Gr).fbx
+  artifactKey: Guid(a0eeb89164f07d04f9a4c55a9117ab9a) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/FBX/Tapistry_1A(Gr).fbx using Guid(a0eeb89164f07d04f9a4c55a9117ab9a) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 74.733337%;
+ -> (artifact id: '7014bb8be1038e69fdeb23371b8767e3') in 0.062895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UF Creator LITE/FBX/Objects_1A(Gr).fbx
+  artifactKey: Guid(313bd528678239b46871dc7d959fd48c) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/FBX/Objects_1A(Gr).fbx using Guid(313bd528678239b46871dc7d959fd48c) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 65.991119%;
+ -> (artifact id: '3b712b9c1f6f601eda19b3df8b2e45b6') in 0.055668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UF Creator LITE/FBX/Docks_1A(Gr).fbx
+  artifactKey: Guid(3dac446bd5b8eb242ae16c3eba20bab2) Importer(-1,00000000000000000000000000000000)
+Start importing Assets/UF Creator LITE/FBX/Docks_1A(Gr).fbx using Guid(3dac446bd5b8eb242ae16c3eba20bab2) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 75.066666%;
+ -> (artifact id: '4fdf999343c177e806e70ae6c300780c') in 0.072435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
